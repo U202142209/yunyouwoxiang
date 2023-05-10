@@ -1,0 +1,25 @@
+/* pages/team/team.wxss */
+/* 标题 */
+.team-title {
+  display: flex;
+  margin-top: 50rpx;
+}
+/* logo  */
+.team-title image {
+  width: 130rpx;
+}
+/* 字体 */
+.team-title view {
+  line-height: 130rpx;
+  font-size: 55rpx;
+  padding-left: 80rpx;
+}
+.tuisong-list image{
+  width: 730rpx;
+}
+.tuisong-title {
+  background-color: rgb(252, 244, 244);
+  padding: 10rpx 60rpx;
+  font-size: 40rpx;
+  margin-bottom: 130rpx;
+}

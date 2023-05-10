@@ -1,0 +1,15 @@
+<!--pages/team/team.wxml-->
+<view class="team-title">
+  <image mode="widthFix" src="/images/tabBar/logo.png"></image>
+  <view> <text>鹿鼎沁桉</text> </view>
+</view>
+<view style="font-size: 30rpx;padding:0 30rpx;line-height: 60rpx;margin-bottom: 50rpx;">
+<text selectable>北京科技大学鹿贝柯鹿鼎沁桉乡村振兴实践团发布平台</text>
+</view>
+
+<navigator wx:for="{{tuisong}}" wx:key="index" url="/child1/tuisong/tuisong?url={{item.url}}" class="tuisong-list">
+  <view class="textAlignCrnter">
+    <image lazy-load mode="widthFix" src="{{item.img}}"></image>
+  </view>
+  <view class="tuisong-title">{{item.name}}</view>
+</navigator>

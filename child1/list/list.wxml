@@ -1,0 +1,220 @@
+<!-- 秦安简介 -->
+<view wx:if="{{string==1}}">
+  <view class="textAlignCrnter">
+    <image src="https://img0.baidu.com/it/u=3781817908,3522900951&fm=253&fmt=auto&app=138&f=JPEG?w=890&h=483" mode="widthFix"></image>
+  </view>
+  <view class="qinantitle">在这里，你可以了解关于 <text class="fontred">秦安</text> 的一切！</view>
+  <navigator open-type="navigate" url="/child1/info/info?obj={{item.id}}" class="list" wx:for="{{qinanlist}}" wx:key="id">
+    <view>
+      <image mode="widthFix" class="list_image" src="{{item.photo}}"></image>
+    </view>
+    <view>
+      <text class="list_title">{{item.text}}</text>
+    </view>
+  </navigator>
+</view>
+
+<!-- 苹果 -->
+<view wx:elif="{{string==2}}">
+  <!-- 轮播图 -->
+  <swiper style="height: 380px;" class="textAlignCrnter" interval="3000" circular autoplay>
+    <swiper-item wx:for="{{apple}}" wx:key="index">
+      <image style="width: 750rpx;" mode="widthFix" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="h1">秦安苹果</view>
+  <view class="article lightmix">甘肃省天水市秦安县特产
+    秦安苹果，甘肃省天水市秦安县特产，中国国家地理标志产品。
+    秦安苹果果实外形端正高桩，整齐均匀。果面细腻，着色面积60%以上，光洁度高，果点小。果皮薄，果肉黄白色，肉质细脆，汁液多，果核小。
+    2018年3月，原国家质检总局批准对“秦安苹果”实施地理标志产品保护。 </view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/500fd9f9d72a6059eb67a2972434349b023bbacc?x-bce-process=image/resize,m_lfit,w_1200,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">（一）产品特点</view>
+  <view class="article lightmix">秦安苹果果实外形端正高桩，整齐均匀。果面细腻，着色面积60%以上，光洁度高，果点小。果皮薄，果肉黄白色，肉质细脆，汁液多，果核小。</view>
+  <view class="h2">（二）产地环境</view>
+  <view class="article lightmix">秦安县境内属半干旱、半湿润气候区，冬无严寒，夏无酷暑，四季分明，且土层深厚，光照充足，热量丰富，昼夜温差大，农作物生长期长，特别有利于各种水果、瓜类的生长，是中国北方落叶果树尤其是苹果生产最适栽培的黄金地域之一。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/500fd9f9d72a6059ea83a1972434349b023bbaa8?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">（三）历史渊源</view>
+  <view class="article lightmix">民国三十三年（1941年），秦安县首次引进苹果苗木。民国三十六年（1947年），农民从天水引进黄奎3株以及其他品种共100余株，在县城柴家坟园栽植。之后，苹果引进逐年增多。</view>
+  <view class="article lightmix">1958年，天水专署分配秦安县苹果苗木33500株，主要有青香蕉、黄元帅。1961年，秦安县又引进国光、祝光、旭等品种。 1985年8月，秦安县园艺局从甘肃省果树所引进苹果接穗嫁接于重点农户，品种有群富、红矮生、红洽罗德、红富士、富士、山富2、群富2、长富2、长富7、王林。1986年，在秦安县园艺局指导下，部分农户繁育红富士苹果苗木120万株，在全县栽植。1992年，陇城镇政府从山东栖霞引进长富2、惠民、宫崎等品种建成千亩优质苹果基地。</view>
+  <view class="article lightmix">1993年，秦安县园艺局先后从辽宁兴城果树研究所、陕西省农科院等部门引进脱毒苹果苗600株，在西川良种场建立母本园10亩；引进脱毒接穗1.2万枝，富士系有长富2号、长富6号、岩富10号、新乔纳金、乔纳金、北斗，嫁接于苗圃和育苗农户，进行无病毒苗木繁育。</view>
+  <view class="article lightmix">998年，秦安县园艺局从山东栖霞马作寿处引进寿红富士接穗，嫁接于重点果树乡镇的农户。
+    1999年，秦安县园艺局从陕西杨凌引进2001富士苗木5000株，定植于莲花、陇城、郑川等地。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/91529822720e0cf369e40d760646f21fbe09aa28?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">（四）生产情况</view>
+  <view class="article lightmix">截至2015年底，甘肃省秦安县以惠民短枝、宫崎短枝、礼泉短枝、寿红富士、长富2号等富士品种为主的苹果面积达到61.37万亩，结果面积30.7万亩，产量54.82万吨，产值达18.93亿元。</view>
+  <view class="h2">（五）产品荣誉</view>
+  <view class="article lightmix">2018年3月，原国家质检总局批准对“秦安苹果”实施地理标志产品保护。</view>
+  <view class="article lightmix">2021年9月13日，入选2021年第二批全国名特优新农产品名录。</view>
+  <view class="h2">（六）地理标志</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/c995d143ad4bd1131858f4bf56afa40f4afb05a1?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h3">（6.1）地域保护范围</view>
+  <view class="article lightmix">秦安苹果产地范围为甘肃省秦安县兴国镇、西川镇、莲花镇、陇城镇、五营镇、郭嘉镇、叶堡镇、安伏镇、魏店镇、千户镇、王尹镇、兴丰镇、王铺镇、王窑镇、中山镇、云山镇、刘坪镇现辖行政区域。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d16f156d9ecffdeb48f8d5464ad?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h3">（6.2）质量技术要求</view>
+  <view class="article lightmix">一、品种------
+    长富二号、宫崎、惠民等着色系富士品种。</view>
+  <view class="article lightmix">二、立地条件---------
+    果园立地条件为海拔1200米至1700米，无污染，有集雨节灌或提灌设施。土壤为黄绵土、淀土，pH为7.5至8.1，有机质含量10克/千克以上。</view>
+  <view class="article lightmix">三、栽培管理--------- 育苗：以陇东海棠、新疆野苹果为主要砧木或以米26为中间砧木进行苗木嫁接繁育。 定植密度：株行距为（2米×4米）、（2.5米×4米）、（3米×4米）或（3米×5米）。每公顷栽植株数660至1245株。 定植时间：春植为3月中、下旬；秋植为11月，秋植苗木可埋土越冬。施肥管理：9月下旬至10月底施基肥，施肥方式为沟施或穴施。施肥量盛果期果园666.7平方米施有机肥3000千克至4000千克，复合肥30千克至50千克。 产量控制：产量控制在2500至3000千克/每667平方米（亩）。</view>
+  <view class="article lightmix">四、采收和贮藏------
+    采收：采收时间10月15日至11月5日，生育期180天。贮藏：自然通风库贮藏至翌年3月下旬；冷藏气调库贮藏至翌年8月底。安全及其他质量技术要求：产品安全及其他质量技术要求必须符合国家相关规定。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=3461443505,989826894&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333" mode="widthFix"></image>
+  </view>
+  <view class="h3">（6.3）专用标志使用</view>
+  <view class="article lightmix">秦安苹果产地范围内的生产者，可向秦安县质量技术监督局提出使用“地理标志产品专用标志”的申请，经甘肃省质量技术监督局审核，报质检总局核准后予以公告。秦安苹果的检测机构由甘肃省质量技术监督局在符合资质要求的检测机构中选定</view>
+  <view class="textAlignCrnter">
+    <image src="https://img0.baidu.com/it/u=1261828586,2710575957&fm=253&fmt=auto&app=120&f=JPEG?w=791&h=500" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable> https://baike.baidu.com/item/%E7%A7%A6%E5%AE%89%E8%8B%B9%E6%9E%9C/6539751?fr=aladdin </text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+<!-- 蜜桃 -->
+<view wx:elif="{{string==3}}">
+  <!-- 轮播图 -->
+  <swiper style="height: 300px;" class="textAlignCrnter" interval="1500" circular autoplay>
+    <swiper-item wx:for="{{peach}}" wx:key="index">
+      <image style="width: 750rpx;" mode="widthFix" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="h1">秦安蜜桃</view>
+  <view class="article lightmix">秦安蜜桃因原产于甘肃“瓜果之乡”秦安地区而得名。得益于当地特殊的气候水土环境，秦安蜜桃色艳味美，营养价值高，还有强身健体，延年益寿之功效。有“天有王母蟠桃，地有秦安蜜桃。”之美誉，并荣获“中华名果”称号，还被列入了国家地理标志保护产品。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=2521617326,3383913862&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=426" mode="widthFix"></image>
+  </view>
+  <view class="h2">（一）产地环境</view>
+  <view class="article lightmix">秦安蜜桃之所以色艳味美，是由其独特的地理环境决定的。秦安位于甘肃省东南部，天水市北部，属陇中温带半湿润气候，自古以来就是中国北方落叶果树最适栽培的黄金纬度区之一。冬无严寒，夏无酷暑，四季分明，土层深厚、光照充足、热量丰富、昼夜温差大、农作物生长期较长等特点，都非常适合果树的栽培。</view>
+  <view class="article lightmix">秦安独特的地理位置自古以来就是中国北方落叶果树最适栽培的黄金纬度区之一，也是中国桃的原产地之一。出产于秦安县的秦桃是我国现有三大桃种系中的甘肃桃的种源，也是现代秦安蜜桃的鼻祖。</view>
+  <view class="article lightmix">秦安县属陇中黄土高原西部梁峁沟壑区，山多川少，梁峁起伏，沟壑纵横。县域东西长约65公里，南北宽约50公里，地势西北高而东南低，葫芦河纵贯秦安中部。县境内海拔1120米—2020米。属陇中南部温带半温润气候，年平均气温10.4℃，正常年景年均降水量507.3毫米，为蜜桃生产提供了得天独厚的地理条件。独特的气候土壤资源优势孕育出了独特的秦安蜜桃。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img0.baidu.com/it/u=1378535391,3561584644&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" mode="widthFix"></image>
+  </view>
+  <view class="h2">（二）历史渊源</view>
+  <view class="article lightmix">据秦安县志记载，秦安蜜桃早在汉代时就已广泛栽培，在唐宋时期，“齐桃”、“二格子桃”和“秋桃”就以个大、色艳、味美而远近闻名。相传，唐太宗李世民在病中想吃故乡的蜜桃，专门派遣使者快马兼程到秦安采摘，从此秦安蜜桃被作为朝廷贡品，名扬四海。</view>
+  <view class="article lightmix">北宋时期秦安就有“城北十里桃花川”之说。长期的蜜桃栽培，在葫芦河流域形成了自兴国镇庙咀村到郭嘉镇邵咀村全长30余公里的数万亩桃园，每到春季，桃花竞放，香气四溢。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=348133553,515816067&fm=253&fmt=auto&app=138&f=JPEG?w=350&h=350" mode="widthFix"></image>
+  </view>
+  <view class="h2">（三）品质特点</view>
+  <view class="article lightmix">“天有王母蟠桃，地有秦安蜜桃。”在秦安，蜜桃以个大、色艳、味美、质优、环保、营养丰富而誉满全中国，因此也为秦安赢得了“瓜果之乡”的美称。秦安蜜桃不仅口感细腻香甜，容易消化，而且适合各个年龄层的人食用。据专家检测，其主要营养成分包括：丰富的维生素C和大量人体所需要的纤维素、胡萝卜素、番茄黄素及多种微量元素，其中硒、锌等含量均明显高于其他水果，营养价值很高，难怪中国神话传说常把桃和长寿联系在一起。它还含有大量果胶，每天吃两只可以起到通便、降血糖血脂、抗自由基、祛除黑斑、延缓衰老、提高免疫功能等作用；也能促进食欲。</view>
+  <view class="article lightmix">秦安蜜桃除强身健体，延年益寿之外，还可以解酒并改善宿醉。根据营养学家分析，蜜桃含有的烟碱酸，能有效促进血液循环，可以缓解酒后不适，很适合作为酒后水果食用。另外，秦安蜜桃还具有天然有效的美白作用。它含有天然收敛成分，可以增加肌肤的弹性，防止皱纹产生，对于假性皱纹和细小皱纹还具有修复作用，加之气味芳香浓郁，深受女性青睐。蜜桃的润肤功能也很强，全株都有药用效果，尤其是桃花的功效极其显著。在古时的宫廷秘方中，就有用桃花煮水洗面、沐浴、饮用以美白肌肤的记载，也有用桃子榨汁加淘米水洗面，以润泽肌肤之说。因桃花具有利尿活血，能清除体内废物的功能，所以还具有美容减肥的妙用。若将其与一些食品巧妙搭配，就又成了保养身体的食疗佳品。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=1874281764,4095201350&fm=253&fmt=auto&app=120&f=JPEG?w=650&h=433" mode="widthFix"></image>
+  </view>
+  <view class="h2">（四）品质认证</view>
+  <view class="article lightmix">秦安蜜桃以优良品质而远近闻名，畅销西北乃至中国各地，被消费者赋予“天有王母蟠桃，地有秦安蜜桃”的美誉。京红、大久保桃1987年被甘肃省政府命名为优质农产品；八月脆桃在1997年甘肃省首届林果产品展览交易会上荣获铜奖；2000年3月，秦安县被国家林业局命名为中国名特优经济林桃之乡，2003年秦安蜜桃被天水市政府命名为优质农产品，2004年秦安蜜桃获国家级绿色食品认证。2006年8月，在北京举办的“奥运推荐果品评选会”上，秦安县生产的“北京七号”秦安蜜桃，被评为一等奖，同时荣获“中华名果”称号。2007年, 在甘肃省第二届林果花卉展览会上，“秦安蜜桃”被评为“甘肃省十大名果”，红雪桃被评为金奖。秦安蜜桃于2008年通过了国家地理标志产品保护。2009年，在中国园艺学会桃分会举办的全国首届早熟桃评比活动中，我县生产的“砂子早生桃”荣获“龙泉杯”优胜奖。2010年，在中国农产品区域公用品牌价值评估课题组组织的中国农产品区域公用品牌价值评估中，秦安蜜桃品牌价值为4.87亿人民币</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=2651278226,3466405900&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" mode="widthFix"></image>
+  </view>
+  <view class="h2">（五）品种情况</view>
+  <view class="article lightmix">秦安县桃品种资源丰富，先后从多家科研院所、蜜桃生产先进省市积极引进栽植早、中、晚熟鲜食蜜桃品种100多个，品种结构和生产布局日趋合理。其中：早熟蜜桃品种1.168万亩，占总面积的12.3%，主栽品种有春艳、春蕾、早花露、早春水蜜、麦香等，六月中下旬成熟；中熟蜜桃品种5.927万亩，占总面积的62.4%，主栽品种有仓方早生、红桃、大久保、北京七号、红清水、绿化9号、沙红桃等，七月中旬至八月中旬成熟；晚熟蜜桃品种2.4034万亩，占总面积的25.3%，主栽品种有八月脆、处暑红、莱山蜜、红雪桃、秦王桃等，八月下旬至九月下旬成熟。</view>
+  <view class="article lightmix">2012年3月2日，从中科院郑州果树研究所引进了中桃6号，春美，油蟠桃36-3，黄金蜜桃3号，中油4号、5号、8号、9号、10号、12号等10个桃树新品种。</view>
+  <view class="textAlignCrnter">
+    <image src="http://t13.baidu.com/it/u=191843087,365478151&fm=224&app=112&f=JPEG?w=350&h=350" mode="widthFix"></image>
+  </view>
+  <view class="h2">（六）生产情况</view>
+  <view class="article lightmix">21世纪初，秦安县立足县情,按照因地制宜、突出特色、合理布局、深度开发、提高效益的原则，把做大做强做优林果业作为富民强县的重大战略，以推广先进实用技术和实施品牌培育为重点，大力发展蜜桃特色产业，截止2012年，该县蜜桃栽培面积达9.5万亩，年产量9920万公斤，产值达23810万元。建成日光温室桃棚337座，结果317座。已建成万亩蜜桃基地2个，千亩以上桃基地20处，蜜桃专业村64个，全县桃农有47600余户。蜜桃种植主要分布在兴国、西川、刘坪、王尹、叶堡、郭嘉、安伏、王窑等乡镇的川道区和浅山区。</view>
+  <view class="article lightmix">该县在蜜桃生产中，大力推广桃树长枝修剪、起垄覆膜节水、配方施肥、种草覆草、疏花疏果、果实套袋、低产园改造等技术。同时，利用孢子捕捉器、虫情测报灯、果园气象站、频振式太阳能杀虫灯等物理生物方法，进行病虫害预测预报与综合防控，加大果园管理新技术培训力度，使果农的科技素质与果园管理水平得到明显提高，有效增加了果园效益和果农收入。同时，该县不断扩大蜜桃基地的规模，特别是王尹乡按照“南山苹果北山桃”的产业发展布局，坚持“宜果则果壮产业，宜林则林促生态”的原则，探索出了“梯田+林果+全膜+节灌+路网”的五位一体发展模式，在马河、孙湾、李磨、三大流域高质量建设万亩优质蜜桃基地，通过实行整流域规划、分年度实施，到2012年完成优质蜜桃种植面积8000亩。</view>
+  <view class="textAlignCrnter">
+    <image src="http://t14.baidu.com/it/u=3136920309,2973189491&fm=224&app=112&f=JPEG?w=350&h=350" mode="widthFixs"></image>
+  </view>
+  <view class="article lightmix">秦安县不断健全完善林果市场化服务体系，实现了生产与销售的对接、农民与产业的双赢。按照市场化运作、产业化经营的要求，综合运用政府引导、市场调节等手段，不断提升市场服务功能，先后在兴国、西川、莲花、叶堡、郭嘉、安伏等乡镇建立果品专业市场20多个。同时，对内建立了一批经政府认定的果品收购网点和经营队伍，规范果品营销渠道，对外实行分类、分级包装，统一标识，终端直销，树立诚信买卖的良好形象。成立了果品经纪人行业协会，组建了兴国、西川、刘坪、莲花等26个乡村专业果农协会，全县有2500多名经纪人活跃于果品市场，积极为果品销售牵线搭桥。通过建立信息服务平台，加强与省内外农业网站的联系，实现信息共享，网上交易果品7000多万公斤，畅销青海、宁夏、新疆、内蒙古、四川、北京、上海、广东等地。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img0.baidu.com/it/u=2120554559,2169875917&fm=253&fmt=auto&app=138&f=JPEG?w=884&h=500" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable> https://baike.baidu.com/item/%E7%A7%A6%E5%AE%89%E8%9C%9C%E6%A1%83 </text>更多精彩，请长按复制链接，在浏览器打开</view>
+
+</view>
+<!-- 花椒 -->
+<view wx:elif="{{string==4}}">
+  <swiper style="height: 500rpx;" interval="2000" circular autoplay>
+    <swiper-item wx:for="{{huajiao}}" wx:key="index">
+      <image style="width: 750rpx;" mode="widthFix" src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="h1">秦安花椒</view>
+  <view class="article lightmix">秦安花椒，甘肃省秦安县特产，中国国家地理标志产品。秦安花椒果实色泽艳，果皮鲜红，粒大，皮厚，梗短，香气浓郁，风味独特；秦安花椒已成为甘肃乃至西北地区优质花椒生产第一县。秦安县林果产业多次获得国家、省、市的表彰奖励。先后被评为中国名特优经济林花椒之乡、中国经济林建设先进县、该省林果支柱产业建设十强县。秦安果椒产品也多次获国家、省、市名特优农产品称号。2009年5月4日，原国家质检总局正式批准“秦安花椒“实施地理标志产品保。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/77c6a7efce1b9d168c8abea9ffdeb48f8d5464ac?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg" mode="widthFix"></image>
+  </view>
+  <view class="h2">（一）产品特点</view>
+  <view class="article lightmix">秦安花椒果实色泽艳丽，果皮鲜红，颗粒大，果皮厚，果梗短，成熟时呈浓红色，麻味醇厚，香气浓郁，风味独特；秦安的花椒以颗粒大、色泽艳、麻味醇、绿色营养而誉满中国。</view>
+  <view class="h2">（二）产地环境</view>
+  <view class="article lightmix">秦安花椒产区属陇中南部温和半湿润季风气候区，气候温和，光照充足，夏无酷暑，冬无严寒。产区年平均气温10.4℃，夏季（6～9月）平均气温20.7～21.5℃，为花椒果实生长的最适温度。平均最高气温27.7～28.8℃，极端最高气温37.8℃，影响花椒光合作用的高温日数明显少于其他地区。冬季1月最冷，月平均气温-5.6～-3.3℃，极端最低气温-18.9℃。≥10℃的积温为3382.8℃；无霜期为141～230天。</view>
+  <view class="article lightmix">秦安花椒开花和幼果期（4月下旬至6月中旬）平均气温6.1～12.1℃，较适宜授粉和坐果。花椒果实成熟期昼夜温差大，有利于着色和营养成分积累。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/8435e5dde71190ef1b46b617c21b9d16fcfa60bc?x-bce-process=image/resize,m_lfit,w_1280,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">（三）历史溯源</view>
+  <view class="article lightmix">甘肃秦安是中国花椒的原产地和主产区之一。秦安花椒的栽培历史可以追溯到北魏（386年～534年）时期，中国最早的医学典籍《神农本草经》中就有“秦椒”、“蜀椒”的记载，北魏时期贾思勰的《齐民要术》里有“秦椒出成纪（今秦安县），蜀椒出武都”的描述，这说明至少1800多年前秦安县就出产花椒。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=3540729825,2381409212&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=480" mode="widthFix"></image>
+  </view>
+  <view class="h2">（四）生产情况</view>
+  <view class="article lightmix">截止2017年底，花椒面积达1.123万亩，挂果面积0.933万亩，产量1.05万吨，产值12.6亿元。</view>
+  <view class="article lightmix">秦安县已建成兴馨花椒专业合作社、陇源红花椒专业合作社和来源花椒购销贸易货栈等花椒专业合作社12家。2009年6月成立了专门从事花椒生产、销售、加工为一体的兴馨花椒专业合作社，注册资金270万元，入社椒农1575人，合作社跨该县7个乡镇。合作社推动了花椒生产的规模化，在坚持家庭联产承包制的基础上，通过专业合作社的资源整合，走出传统的生产方式，从单家独户走向专业联合，推动了花椒生产标准化、产业化，增强市场竞争力。该县通过合作社销售花椒量为1350.0吨。销售总额占中国市场的5%以上。2017年销售额为1.6亿元。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=506963643,865762876&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" mode="widthFix"></image>
+  </view>
+  <view class="h2">（五）产品荣誉</view>
+  <view class="article lightmix">1997年选育的“秦安1号”花椒被列为中国林木良种。</view>
+  <view class="article lightmix">1997年秦安1号花椒获甘肃省首届林产品展览交易会银奖。</view>
+  <view class="article lightmix">2000年秦安1号花椒获第十五届中国西部技术交易会新技术、新产品金奖。</view>
+  <view class="article lightmix">2006年秦安花椒通过了国家A级绿色食品认证。</view>
+  <view class="article lightmix">2007年在甘肃省第二届林果花卉展览交易会上，秦安一号花椒、大红袍花椒2个品种均评为铜奖。</view>
+  <view class="article lightmix">2008年秦安被中国果品流通协会命名为“中国花椒之乡”。</view>
+  <view class="article lightmix">2009年3月，秦安花椒通过了国家A级绿色食品续认证并通过了国家级地理标志产品保护认证。</view>
+  <view class="article lightmix">2009年5月4日，原国家质检总局正式批准“秦安花椒“实施地理标志产品保。</view>
+  <view class="article lightmix">2018年，中国品牌价值评价信息发布暨第二届中国品牌发展论坛。秦安花椒两个品牌荣登中国区域品牌（地理标志产品）百强榜。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img0.baidu.com/it/u=600125438,3234688247&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=480" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable> https://baike.baidu.com/item/%E7%A7%A6%E5%AE%89%E8%8A%B1%E6%A4%92/7592877?fr=aladdin </text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+<!-- 小寨生产合作社 -->
+<view wx:elif="{{string==5}}">
+  <view class="textAlignCrnter">
+    <image style="width: 750rpx;" src="/images/home/xiaozhai.png" mode="widthFix"></image>
+  </view>
+  <view class="h1">秦安县小寨村种植农民专业合作社</view>
+  <view class="article">
+    秦安县小寨村种植农民专业合作社由高新源（合作社法人代表）联合43户150位农民于2018年6月成立，注册资金达50万元，合作社位于西川镇小寨村，主要<text class="fontweight">从事农业生产资料购买、农产品销售、农业观光以及生产经营相关技术信息服务</text>。拥有土地种植面积200亩，主要种植<text class="fontweight">苹果、花椒、桃子</text>等农产品，年产量共计约200吨，产值共计约200万元。
+  </view>
+  <view class="article">
+    小寨村农业合作社坚持以“<text class="fontweight">民办、民管、民受益</text>”的宗旨和“<text class="fontweight">入社自愿、退社自由、利益共享、风险共担、民主管理、自我发展</text>”的组织原则运作，制定运作程序、规范运行机制、完善管理制度，确保合作社健康有序的发展。
+    小寨村农业合作社成立以后，解放了劳动力，加快了新技术引进步伐，降低了生产成本，提高了农民收入。合作社积极响应国家政策，采取先进措施，不断提高合作社工作效率。在物资服务方面，合作社为社员统一购置化肥、种子、农药等物资。在技术服务方面，统一标准，坚持“<text class="fontweight">科技兴社、项目带动、服务三农</text>”的办社宗旨，加强生产地的过程管理，科学裁剪果树，严格控制化肥、化肥的使用，提高农产品品质和安全性。在销售服务方面，“双管齐下”，<text class="fontweight">线上</text>通过多个平台进行直播带货，<text class="fontweight">线下</text>与批发市场建立良好的业务关系，对农产品进行筛选分级后销售，解决了农户销售难的后顾之忧，保障了种植户的利益。2020年合作社农产品销售总额共计200万元以上。
+  </view>
+  <view class="article">
+    合作社成立以来，为社员进行产前、产中和产后的全程服务，由于在稳定价格、降低生产成本、扩大影响力和知名度、开拓市场范围、健全网络机构、提升信息化管理水平、防治病虫危害、执行无公害农产品标准和规范、建立质量安全追溯制度等方面全面运作，加快了农作物建设的进程，促进了小寨村种植业的<text class="fontweight">可持续发展</text>。
+  </view>
+  <view class="textAlignCrnter">
+    <image style="width: 450rpx;" src="/images/home/xiaozhai_logo.png" mode="widthFix"></image>
+  </view>
+  <!-- 结尾 -->
+  <!-- <view class="textAlignCrnter">
+    <view class="endtext">
+      <view>如需<text class="fontweight">进店了解购买更多秦安的商品</text></view>
+      <view class="fontweight">（火锅底料、花椒芽菜酱等农副产品）</view>
+      <view>您可联系公众号’<text class="fontweight">鹿鼎沁桉</text>‘了解详情</view>
+
+      <view style="margin-top: 50rpx;">若有意向进行<text class="fontweight">商业合作</text> </view>
+      <view>欢迎扫码添加微信进行咨询👇👇👇</view>
+      <image style="width:400rpx; margin:20rpx" src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXFtSoWMjNJRMpOsuIE32nzPOdt9zshHaSF6uLoj4NT7n7NHawHTjtAvOn6a03UY4lFn5JucUP0frg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+      <view class="fontweight">小鹿们恭候您的光临！</view>
+      <view style="margin:60rpx;">-END-</view>
+    </view>
+  </view> -->
+  <view class="textAlignCrnter">
+    <image src="/images/home/shoping.png" mode="widthFix"></image>
+  </view>
+</view>

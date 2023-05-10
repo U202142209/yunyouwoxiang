@@ -1,0 +1,54 @@
+{
+  "usingComponents": {
+    "myscenery": "/component/myscenery"
+  },
+  "pages": [
+    "pages/home/home",
+    "pages/team/team",
+    "pages/company/company"
+  ],
+  "subpackages": [{
+    "root": "child1",
+    "pages": ["list/list",
+      "scebery/scebery",
+      "tuisong/tuisong",
+      "info/info"
+    ]
+  }],
+  "preloadRule": {
+    "pages/home/home": {
+      "network": "all",
+      "packages": ["child1"]
+    }
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "selectedIconPath": "/images/tabBar/home_active.png",
+        "iconPath": "/images/tabBar/home_png.png"
+      },
+      {
+        "pagePath": "pages/company/company",
+        "text": "秦安企业",
+        "selectedIconPath": "/images/tabBar/company_active.png",
+        "iconPath": "/images/tabBar/company.png"
+      },
+
+      {
+        "pagePath": "pages/team/team",
+        "text": "鹿鼎沁桉",
+        "iconPath": "/images/tabBar/logo.png",
+        "selectedIconPath": "/images/tabBar/logo.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#afa",
+    "navigationBarTitleText": "云游秦安",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

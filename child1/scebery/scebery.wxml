@@ -1,0 +1,370 @@
+<!--pages/scebery/scebery.wxml-->
+
+<!-- 图片 -->
+<view class="textAlignCrnter">
+  <image src="{{url}}" mode="widthFix"></image>
+</view>
+<!-- 标题 -->
+<view class="h1">{{name}}</view>
+<view wx:if="{{index==1}}">
+  <view class="article">大地湾遗址，位于甘肃省天水市秦安县东北45千米处的五营乡邵店村东侧，座落在葫芦河支流清水河南岸的二、三级阶地和相接的缓坡山地上，总面积270万平方米</view>
+  <view class="article">大地湾遗址是一处距今8000年—4800年的史前遗址，是中国新石器时代发现的较早的遗址。2006年发掘发掘研究显示，大地湾遗址的人类活动历史由8000年前推前至6万年前。该遗址出土出土陶，石、玉、骨、角、蚌器等文物近万件，发掘房址241座。该遗址对探索中华文明的线索和原生面貌，揭示陇右与天水古代文化的考古编年和文化序列，都具有极为重要的价值 [2] 。</view>
+  <view class="article">1988年1月13日，大地湾遗址被中华人民共和国国务院公布为第三批全国重点文物保护单位。1994年12月，大地湾遗址被中共甘肃省委确定为爱国主义教育基地.2021年10月18日，入选全国“百年百大考古发现”。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/9345d688d43f8794a4c260e9484b19f41bd5ac6e8cee?x-bce-process=image/resize,m_fill,w_360,h_280,align_50,limit_0/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">大地湾遗址的半地穴式房屋, 墙体下部多是天然土层, 外涂草拌泥。参照杨鸿勋的房屋复原的形式初步推断房屋的上部墙体是一种由四周墙柱作为木骨, 树枝编篱的“木骨泥墙”。20世纪七八十年代大地湾发掘时出土了大量蚌刀,其可能与古人类的生产活动密切相关。人们推测，其可能是收获和切割工具。
+    大地湾遗址位于位于甘肃省秦安县邵店村东，面积约12万平方米。1978～1982年甘肃省博物馆主持发掘，揭露面积1.2万多平方米。据放射性碳素断代并经校正的年代，大地湾文化为公元前5850～前5400年。</view>
+  <view class="article">1958年, 甘肃省的文管会进行文物普查时发现在甘肃东部渭河上游的秦安县五营乡邵店村的东侧存在遗址。之后甘肃省的文物工作团队于1978年开始对该遗址进行了长达了七年的考古发掘。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/f31fbe096b63f6246b60999b1e14fcf81a4c510f0550" mode="widthFix"></image>
+  </view>
+  <view class="article">大地湾一期彩绘符号与二期刻划符号是面貌不同、性质和功能也不尽相同的史前陶符，值得我们进行对比研究。
+    大地湾遗址墓葬常见的为单人仰身直肢葬，亦有二次葬者，其中的小孩多用瓮棺葬，属仰韶文化半坡类型遗存。</view>
+  <view class="article">专家们认为，该遗址文化内涵丰富，地层叠压关系清楚，延续时间长久，遗物遗迹丰富。保存极为完整，在全国同类遗址中极为罕见，为黄河上游新石器时代考古排列了较系统的编年序列，具有重大的考古学价值。
+    特别是大地湾一期文化的发现，将我国同时期文化提前了几百年。现设有大地湾遗址文物保管所。为全国重点文物保护单位。
+    在渭河上游，新石器遗存有大地湾文化到齐家文化上下衔接,一脉相承。让我们追寻伏羲氏时代的文明有所依凭。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/2934349b033b5bb5c9eab166af83c239b6003af31650" mode="widthFix"></image>
+  </view>
+  <view class="article">《大学历史词典》对仰韶文化的解释是：“黄河流域新石器时代的一种文化。1921年首次发现于河南渑池仰韶村，故名。现已发现遗址一千多处，主要分布在黄河中游一带。据碳—14测定，其年代约为公元前5000～公元前3000年。……因仰韶文化遗址中常有彩陶，所以也曾被称作彩陶文化。”</view>
+  <view class="article">科研人员们对秦安大地湾遗址出土的小口尖底瓶、小口平底瓶和彩陶壶进行了残留物分析。在三种器类上均发现了与酿酒过程有关的微体植物和微生物组合(包括淀粉粒、植硅体、酵母和霉菌),显示酿酒方法包括制作谷芽酒、麴酒和两法并用,原料以粟、黍、薏苡和小麦族等野生或驯化谷物为主,栎属、栝楼根、姜属和未知根茎类植物偶有添加。
+    大地湾遗址的分析结果初步揭示了陇东地区的酿酒情况,并为仰韶文化的饮酒风尚增添了新证</view>
+  <view class="article">大地湾文化诞生了迄今为止我国最早的一批彩陶,彩陶的制作不但反映了当时人们认识自然、利用自然的程度,也反映了大地湾先民的精神世界。</view>
+  <view class="article">《中国大百科全书》曰：“大地湾文化发现有圆形半地穴式房子，面积仅六、七平方米。窖穴里发现有黍和油菜籽。墓葬为单人仰身直肢，一般有随葬品，个别墓有猪下颚骨。陶器以夹细沙红陶为主，泥质红陶少见。器形主要有圜底钵、三足钵、三足罐和圈足碗。纹饰以交叉绳纹最为常见，部分钵形器绘有紫红色宽带纹，罐和碗的口沿多呈锯齿状。”</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/b3119313b07eca806538b97f087380dda144ad342550" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/tashuo/browse/content?id=9e811c143636be312b92e59e</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+<view wx:elif="{{index==2}}">
+  <view class="article">秦安县凤山风景区位于甘肃省天水市秦安县城东凤山上，主要有凤山森林公园、泰山庙、青莲念佛堂三部分组成。2013年9月25日，秦安县凤山景区经省旅游景区质量等级评定委员会审定，评定为国家3A级旅游景区。 [1] 2015年12月31日，甘肃省旅游景区质量等级评定委员会组织现场检查评分、专家评分和公示，天水市秦安凤山景区等10家景区达到了国家4A级旅游景区标准，现予批准。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/4d086e061d950a7bbba41e6709d162d9f3d3c984?x-bce-process=image/resize,m_lfit,w_235,h_235,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">主要景点</view>
+  <view class="h3">凤山公园</view>
+  <view class="article">主要以秦安县凤山森林公园为重点人工林绿化区域，按照高标准一次性绿化成型的原则，加大绿化力度。目前，凤山森林公园已栽植塔柏、刺柏等苗木塔柏等3.43万株。</view>
+  <view class="h3">泰山庙</view>
+  <view class="article">泰山庙古建筑群，又名凤山，位于甘肃省天水市秦安县城东凤山上，是天水市唯一保存完整的明清古建筑群，建筑面积17000平方米，凤山是从大地湾附近的九龙山向西延伸的余脉，其形似凤凰雄峙秦安县城，故名凤山。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/9f510fb30f2442a7a688ae06d243ad4bd013028a?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h3">青莲念佛堂</view>
+  <view class="article">青莲念佛堂雄踞于历史文化名城秦安县(古成纪)东南的凤山之上,是秦安县重点保护的名胜古迹之一。青莲念佛堂以祖籍秦安的唐代大诗仙、佛门三宝弟子李白大德居士的法名“青莲”命名，同时，也因此地原有纪念李白的“太白祠”，这里便成了人们敬仰先贤、登高览胜、修身养性之地。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/908fa0ec08fa513de38f307d3e6d55fbb2fbd968?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article"> 本文来来自于；<text class="fontblue" selectable>https://baike.baidu.com/item/%E5%87%A4%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA/24031660?fromtitle=%E7%A7%A6%E5%AE%89%E5%8E%BF%E5%87%A4%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA&fromid=585735</text>更多精彩，请复制链接，在浏览器打开</view>
+</view>
+
+<view wx:elif="{{index==3}}">
+  <view class="article">女娲祠位于甘肃省天水市秦安县陇城镇南侧，主要建筑有“娲皇宫”和“女娲祠门牌”，最早的女娲祠位于今陇城城之北山。北山古称“龙泉山”，山梁称风台梁，梁下迤右有龙泉寺，即张锦读书处；梁下迤左有北山寺，右之山崩，祠庙毁于一旦。女娲祠的建造年代，可追溯到秦朝，距今已有2000多年的历史。女娲祠历经沧桑，已经是五次迁建。今 日之女娲祠，气势宏伟，塑像庄严。娲皇宫龛位祥座的披发慈容、肃穆祥和的女娲尊像，是1989年由著名雕塑家何谔女士精心雕塑而成。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/94cad1c8a786c91707d05daac03d70cf3ac75755?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">1988年，陇城地方民众自愿捐款7万余元，在原址又重新建起了一座殿宇雄伟的女娲大殿，名曰“娲皇宫”，这座仿古建筑为砖木结构，占地160平方米，轩楹宏敞，飞檐兽脊，流丹飞碧，雕梁画栋。大殿上顶四棱与主梁衔接，主梁正中一大“寿”字银光闪闪，两边和其他四棱飞檐高翘，被栩栩如生的大象、狮子、麒麟等点缀。大殿正面六根明柱被楹梁连接，正中楹梁上雕刻着活灵活现的二龙戏珠图案，两侧楹梁上均饰以花卉。楹梁悬有原中共甘肃省委书记顾金池、研究员黄汉卿等人题写的“华夏先祖”、“娲皇宫”、“开天辟地”、“炼石补天”的匾额。明柱挂有陕西师范大学教授、博士研究生导师、中华诗词学会副会长、陕西楹联学会名誉会长霍松林先生撰并书的楹联：</view>
+  <view class="article">毋轻抟土意造良师细塑精雕自有英才清玉宇，</view>
+  <view class="article">须重补天功任硕鼠明吞暗啮何来美政济苍生。</view>
+  <view class="article">2000年，陇城民众又自愿捐资8万余元，在“娲皇宫”大殿正前方建起了高峻巍峨的“女娲祠门牌”，门牌上首有原甘肃省军区副政委杨耀春少将题写的“造化万物”匾额。有张蕊兰（现任甘肃省档案局局长）女士题写的“娲皇故里”匾额。有镇人杨紫照书画师题写的“女娲祠”、“圣母德”、“补天功”匾额。正门明柱挂有甘肃建总置业发展有限公司董事长、总经理王欢祥先生撰并书的楹联：</view>
+  <view class="article">炼彩石补苍天日月星辰照千秋，</view>
+  <view class="article">造福泽裕后世炎黄子孙传万代。</view>
+  <view class="article">牌门前立一通“娲皇故里”石碑，碑文由著名书法家黎泉先生题写，由街亭老艺人杨泰先生镌刻。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/eaf81a4c510fd9f9d94057fa2c2dd42a2934a4c9?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">为了弘扬女娲文化，表达娲乡人民对娲皇圣母的敬仰之情，振奋民族精神，传承历史文化名镇--陇城悠久灿烂的历史文化，确立中华民族主要发祥地的历史地位，打造全球华夏儿女寻根问祖圣地，积极响应甘肃建设华夏文明传承创新区建设，促进秦安文化旅游产业的快速发展，天水市政府曾举办了两次公祭人文始祖女娲大典。每年农历三月十五陇城民众都举行盛大的女娲庙会”，经过岁月的历练，时间的洗礼，2011年，秦安女娲祭典仪式被列入国家非物质文化遗产保护名录 。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/0b55b319ebc4b745fef1b585c6fc1e178a82153f?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">女娲传说</view>
+  <view class="article">远古时期，因年代遥远，先民的创世活动只能依据古老的神话传说和文物古迹来印证。女娲、伏羲的功绩有许多也就是经过神话传说才流传下来。美学家李泽厚先生说：“在中国的神话传说序列中，流传最广，材料最多也最出名的当数女娲伏羲的‘传奇’了。从黄土作人到作八卦这个有着近百万年时间差距的人类原始历史，都集中的凝聚和停留在女娲伏羲两位身上。这也意味着他们两位可以代表最早期的中国古文化。”兰州大学中文系教授柯杨先生说：“古代的神话传说是一种文化符号，是古代文化的表象，但它们却蕴含着深层的远古文化源的大量信息。破译并阐释这些信息，揭示他们的深刻意义，乃是许多人文科学研究者的首要任务，将古代的神话传说同地下挖掘出的古代文物或古文化遗址相互印证，再加上历史学、文化人类学、民俗学、民族学等多种人文科学知识与方法的综合运用，那么，对上古一些模糊不清、朦胧存疑的事象，就会逐步清晰起来，并得出比往昔学者更符合实际，也更科学的结论。”大地湾遗址的发掘和略阳古域神奇的传说也正符合以上论说，所有这些都为我们深入探索原始社会先民们的生产和生活状况展现出了广阔的前景。与伏羲相比，在略阳古域有关女娲的神话传说色彩更浓。如前所述的女娲生于风沟，长于风台，葬于风茔；女娲汲龙泉之水，捏土造人；共工作乱，女娲讨伐；有女娲洞、女娲潭、女娲台等许多传说和遗迹。 [1] 古人把创造人类的功绩划归给女娲，这充分体现了母系氏族公社时期女性的威望和以妇女为中心的社会形态。史学家称，“农业的发明是妇女的功绩，人们在发明农业之前，由于猎取禽兽不是很可靠的，妇女们的采集活动一直是生活的主要来源。她们在采集和保护野生植物的过程中，通过长期的观察、摸索和无数次的试种，终于促成了人工栽培农作物的产生”。“原始农业的领导工作开初主要由妇女承担，她们领导着大家，利用天时地利，从事农业生产活动。”为了让世人对女娲的功绩永世铭记，略阳川的民众为娲皇圣母建祠修庙数千载。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/80cb39dbb6fd52664b063187a218972bd4073677?x-bce-process=image/resize,m_lfit,w_220,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E5%A5%B3%E5%A8%B2%E7%A5%A0</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+<view wx:elif="{{index==4}}">
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/smart/91ef76c6a7efce1b9607877ba751f3deb48f6556-bkimg-process,v_1,rw_16,rh_9,maxl_640,pad_1?x-bce-process=image/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">街亭为历代兵家必争之地，具有得失陇右安危关中的战略地位。三国时期诸葛亮为了北定中原兴复汉室于蜀汉建兴六年（公元228年）部署了北伐曹魏的街亭之战，因参军马谡违亮节度，依阻南山，被魏将张郃绝其汲道，大败于街亭。街亭失守，蜀军主力溃败，诸葛亮挥泪斩马谡，上疏请求自贬三级。从此街亭便名扬天下。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/0824ab18972bd4076c8b661a73899e510eb3098c?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">发展历史</view>
+  <view class="article">街亭，又名街泉亭，简称街亭。地处今秦安县厅东北45公里的陇城镇一带。西汉时归属天水郡街泉县管辖，相传街泉县名是由陇城的一口年代久远的泉而得名的，因泉在龙山之下，泉水旺盛，冬夏不减，人们又称之为“龙泉”。东汉时街泉县改称略阳县，旧县名归并街泉栾所接管。据《郡国志》记载：“略阳县有街泉亭，即故县”。街亭山高谷深，地势险要，为历史上重要军事关隘、兵家必争之地，进可攻关中，退可守陇右。历史上群雄角逐，战事频繁，在这里曾多次进行过大规模战争。三国时期，“马谡失街亭”就发生在这里。据《三国志》记载：“蜀汉建兴六年（公元228年）蜀将马谡与魏将张郃战于街亭”。当时诸葛亮为了实现“北定中原，兴复汉室”的大业，亲率大军北伐魏国，攻打祁山。因蜀军一路军纪严整，士气高昂，接连得胜，曹魏南安（郡治在今甘肃省陇西县东北）、天水（郡治在今甘肃省甘谷县南）、安定（郡治在今甘肃省镇原县南）三郡叛魏降蜀，一时响震于关中。魏明帝曹睿急忙从都城洛阳赶到长安，命大将张郃领兵抵御。诸葛亮派参军马谡“督诸军在前，与张郃战于街亭”。不料，马谡违背了诸葛亮的命令，又不听副将王平的劝阻，自作主张，“依阻南山，不下拒城”，不近水，把军队扎营在山上。司马懿得知蜀军凭高立营，便驱大军一拥而进，四面围困，断绝了下山取水的道路，困蜀军于山上。一场街亭争夺战与此展开。魏军乘势攻山，马谡料难固守，持续数日之后便带乏兵突围而逃。扎营山下的王平欲领兵相救，适逢张郃拦路厮杀，又因势孤兵寡，只好仓皇而逃，撤回天水。结果，蜀军大败，失了街亭。诸葛亮不得不从天水退回汉中。赵云军队在箕谷也吃了败仗，好在赵云亲自断后，损失较轻。街亭一战，蜀军主力溃败，导致了诸葛亮初出祁山的全局失败。诸葛亮回到汉中，依照军法，斩了马谡，给赵云以降职处分，同时，上疏“请自贬三等”。他还在《劝将士勤攻已缺教》篇中说：“大军在祁山、箕谷，皆多于贼，而不能破贼为贼所破者，则此病不在兵少也，在一人耳。今欲减兵省将，明罚思过，较变通之道于将来。”足见街亭之失，教训深刻。这就是历史上著名的“失街亭”。 千百年来，山河更易，历史变迁，失街亭、空城计、斩马谡等历史故事广为人们传诵。但昔日之街泉亭，泉在亭毁，古街亭遗址实难确定。《后汉书.郡国志》载：“略阳县有街泉亭，……即故县”。《太平寰宇记》记载：“街泉亭，俗名汉街城，即马谡败绩处”。《辞源》、《中国古今地名大辞典》均认为街亭在今甘肃天水秦安县境。据《秦安县志》记：“东北百里曰高妙山，曰丹麻峪、故丹麻驿也。曰断山，其山当略阳南北之衡，截然中起，不与众山连属，其下为连合川，即马谡覆军处”。连合川地处陇城、龙山二镇之间。龙山原名断山，原属秦安县管辖，清乾隆十四年知县蒋允嫌其名不祥而改称龙山，解放后划入张家川回族自治县。总之，街亭古战场遗址，依史书记载和地形观察，应在陇城与龙山之间的地域，但因年代久远，确址尚待考证。解放后，在陇城乡西北2公里薛李川处，当地家民发现一张铸有“蜀”字弩机，现存甘肃省博物馆。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/c8ea15ce36d3d539676cbb243287e950342ab080?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">主要景点</view>
+  <view class="h3">失街亭</view>
+  <view class="article">街亭山高谷深，地势险要，为历史上重要军事关隘、兵家必争之地，进可攻关中，退可守陇右。历史上群雄角逐，战事频繁，在这里曾多次进行过大规模战争。三国时期，“马谡失街亭”就发生在这里。据《三国志》记载：“蜀汉建兴六年（公元228年）蜀将马谡与魏将张郃战于街亭”。当时诸葛亮为了实现“北定中原，兴复汉室”的大业，亲率大军北伐魏国，攻打祁山。因蜀军一路军纪严整，士气高昂，接连得胜，曹魏南安（郡治在今甘肃省陇西县东北）、天水（郡治在今甘肃省甘谷县南）、安定（郡治在今甘肃省镇原县南）三郡叛魏降蜀，一时响震于关中。魏明帝曹叡急忙从都城洛阳赶到长安，命大将张郃领兵抵御。诸葛亮派参军马谡“督诸军在前，与郃战于街亭”。不料，马谡违背了诸葛亮的命令，又不听副将王平的劝阻，自作主张，“依阻南山，不下拒城”，不近水，把军队扎营在山上。张郃得知蜀军凭高扎营，驱大军一拥而进，四面围困，断绝了下山取水的道路，困蜀军于山。一场街亭争夺战与此展开。魏军乘势攻山，马谡料难固守，持续数日之后便带乏兵突围而逃。扎营山下的王平欲领兵相救，适逢张郃拦路厮杀，又因势孤兵寡，只好仓皇而逃，撤回天水。结果，蜀军大败，失了街亭。诸葛亮不得不从天水退回汉中。赵云军队在箕谷也吃了败仗，好在赵云亲自断后，损失较轻。街亭一战，蜀军主力溃败，导致了诸葛亮初出祁山的全局失败。诸葛亮回到汉中，依照军法，斩了马谡，给赵云以降职处分，同时，上疏“请自贬三等”。他还在《劝将士勤攻已缺教》篇中说：“大军在祁山、箕谷，皆多于贼，而不能破贼为贼所破者，则此病不在兵少也，在一人耳。今欲减兵省将，明罚思过，较变通之道于将来。”足见街亭之失，教训深刻。这就是历史上著名的“失街亭”。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/6f061d950a7b02081a70cb4c62d9f2d3562cc8e6?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">旅游信息</view>
+  <view class="article">街亭位于甘肃省天水市秦安县城东北40公里的陇城镇，距大地湾遗址8公里，是一处宽约6公里、长达十几公里的开阔地带，是关陇大地的咽喉之地，战略地位十分重要，成为历代兵家必争之地。三国时期魏蜀街亭之战就发生在这里。街亭所处的位置是一个河谷开阔，四通八达，南北山势险要，进能够攻，退可以守的战略要地。三国时期诸葛亮派参军马谡督先锋众军，裨将军王平为马谡军中先锋（领兵1000人）固守街亭，因马谡违亮部署，又不听王平力谏，“不守汲水之道，依阻南山，不下拒城”，终被魏军大将张郃所败，诸葛亮得知街亭失守，马谡（有逃狱之责）下狱被杀，上疏请求自贬三级。从此，街亭便名扬天下。</view>
+  <view class="article">街亭也为浙江诸暨辖区内一镇名，因街头有亭而命名之。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/d058ccbf6c81800a39d73fe9b93533fa828b4722?x-bce-process=image/resize,m_lfit,w_235,h_235,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E8%A1%97%E4%BA%AD</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+<view wx:elif="{{index==5}}">
+  <view class="article">兴国寺，位于甘肃省天水市秦安县新华街文化广场北侧，原名“兴谷寺”，俗称“官寺”，建于元代至顺年间(1330年-1332年)，明代列为秦安八景之一，占地面积2800平方米，整个建筑群由金刚殿、天王殿、接引佛(韦驼)殿、钟鼓楼和主体大殿般若殿组成，兴国寺主体建筑般若殿保留了明显的元代建筑风格，是甘肃省现存最早的木构建筑之一，为研究元代建筑特征和建筑艺术提供了不可多得的实物资料，具有很高的历史、科学和艺术价值。</view>
+  <view class="article">兴国寺，1981年9月甘肃省人民政府公布为省级文物保护单位，1996年被国务院公布为全国重点文物保护单位。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/5366d0160924ab184675d8e837fae6cd7a890b89?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">历史概况</view>
+  <view class="article">兴国寺又名兴谷寺，俗称“官寺”，在秦安县城北街。元至顺年间 (1330 - 1332年)，规模初具。明嘉靖年，中垂邑人胡缵宗题其寺额“兴国寺”，又书“般若”二字于大雄宝殿门。</view>
+  <view class="article">兴国寺起初是一座规模较大的古刹，寺内有大雄宝殿 (即“般若”殿)一座，殿正中置释迦牟尼佛像，两旁侧有观音菩萨像。左有伽蓝殿，右有菩萨殿；中左有钟楼，中右有鼓楼，门前有金刚殿，门侧有天王殿。寺置两道门，头门有金刚2尊，二门有天王4尊。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/5d6034a85edf8db1594643bb0b23dd54574e7480?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">布局结构</view>
+  <view class="article">再进直接佛完，龛前有接引佛，完后有韦驮菩萨。迄南即钟楼和鼓楼，迤北还有文昌宫、圣母宫和、长官殿等。整个寺庙殿宇雄壮，佛像森严，建造奇巧。</view>
+  <view class="article">兴国寺座东朝西，中轴线上依次为金刚殿、天王殿、接引佛韦驮殿、般若殿，两侧有钟楼、鼓楼、伽蓝殿、菩萨殿。般若殿面阔三间，进深二间，前带廊，前檐显五间，单檐歇山布瓦顶，采用琉璃花脊，瓦顶正脊中施琉璃脊刹，刹下有兽面座，上有宝珠（已失）。
+    兴国寺，正脊饰龙与西蕃莲等纹，两侧按等距离设置狮、狗、虎等蹲兽。垂脊饰水纹，上有蹲兽二枚，戗脊上亦有蹲兽二枚，端部各设嫔伽一尊，子角梁端用绿琉璃套兽。殿内梁架结构为彻上露明造，采用了元代的斜梁构件。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/b90e7bec54e736d15ab1b3d799504fc2d462694a?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">建筑风貌檐</view>
+  <view class="article">兴国寺，般若殿前檐斗拱为六铺作三下昂计心造，每补间施一攒，补间铺作增出45度斜昂，转角铺作除角昂、搭角闹昂和正出昂外不施斜昂，昂头为如意状，耍头刻云形，前檐令栱和外跳瓜栱、慢栱的正面刻卷草纹装饰，两山和后檐斗拱为五铺作双下昂计心造里转偷心造双跳华拱，为使前檐斗拱与两山和后檐斗拱至令拱上找平，前檐柱头标高随之下调。</view>
+  <view class="article">大殿用檐柱四根，当心间两根浑圆硕大，柱头卷刹为覆盆状，柱身下用素面圆形柱础，四根角柱最为粗大，以增加建筑四隅的强度。四根角柱明显高于檐柱，有显著的“柱侧角”和“柱生起”作用。般若殿外观雄浑稳定，轮廊协调秀美。大殿栏额上方，悬挂胡缵宗所书的“般若”匾额，字迹古朴雄浑，是一件珍贵的书法艺术作品。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/d53f8794a4c27d1e5c074e2b1fd5ad6eddc4383f?x-bce-process=image/resize,m_lfit,w_220,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">艺术价值</view>
+  <view class="article">兴国寺般若殿保留了元代建筑风格，它是甘肃省现存较早的木构建筑之一，具有很高的历史、科学和艺术价值，为研究元代的建筑艺术提供了不可多得的实物资料。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/58ee3d6d55fbb2fb697a67cd4d4a20a44723dc9f?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E5%85%B4%E5%9B%BD%E5%AF%BA/5623129</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+<view wx:elif="{{index==6}}">
+  <view class="article">秦安文庙位于甘肃天水市秦安县兴国镇新华街东，占地面积3200平方米（约4.5亩），创建于元大德元年（1297年）前，道光十八年（1838年）极具规模，曾是天水地区历史上规模较大的崇圣尊孔之地。 [1]
+    秦安文庙始建于金代以前，后历经破坏与修复，现已经重新修缮和恢复了大成殿、大成门、乡贤祠、名宦祠和泮池、状元桥、孔子塑像等建筑。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/d009b3de9c82d158f661019b810a19d8bc3e423c?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">免费政策</view>
+  <view class="article">2020年2月，为致敬奋斗在抗“疫”一线的医护工作者，秦安文庙景区自恢复营业起一年内都对全国医务工作者免门票。</view>
+  <view class="h2">建筑历史</view>
+  <view class="article">秦安文庙自创建以来，历代都进行过保护修缮。明代成化、弘治、正德、嘉靖、隆庆、万历年间相继维修。清代顺治十六年（1659年）又增修，康熙五十七年（1718年）遭大地震，殿宇被毁，六十一年（1722年）修复。此后经乾隆、嘉庆、道光年多次修建。解放后文庙先后由县兵役局、财政局、水电局、县二中使用，后大成殿交由县博物馆作为文物库房使用。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/d043ad4bd11373f0c604f019a40f4bfbfbed0478?x-bce-process=image/resize,m_lfit,w_235,h_235,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">建筑情况</view>
+  <view class="article">秦安文庙的建筑布局井然有序，或前后呼应，或左右相等，或两两对称，或东西并列。在县学前建有崇圣祠3楹，度有院门；中部建有大成殿5楹，左右是东西庑各7楹，度有祭器、乐器库。大成殿前是戟门和泮池，左为名宦祠，右为乡贤祠。乡贤祠前有灵星门，门前有照壁，壁上有圆形琉璃盘龙两条，左右是两座牌坊，上书“德配天地”、“道贯古今”8个大字，牌坊前各有下马牌遥相呼应。秦安文庙最后面的尊经阁，是专门用来储藏各类书籍的。阁高3层，有院门。文庙内的建筑大都塌毁，面目全非，只有主体建筑大成殿保存最为完好。</view>
+  <view class="article">秦安文庙主体建筑大成殿座落在今县博物馆后一块长方形的台基上，坐北朝南，面阔5间，通长14米，进深4间，宽10.30米，建筑面积240平方米，大式土木结构七檩抬梁造，单檐歇山顶，上覆琉璃筒瓦，梁枋构件均施彩画，收山、出檐较深，脊饰龙、凤、牡丹、菊等纹饰，纹样繁杂，华丽多彩。垂脊的顶端安有垂兽仔角梁头旋以套兽，勾头瓦当雕饰双凤或饕餮纹，瓦头雕饰卷草纹。大成殿的檐柱高度相同，内柱全为金柱，高耸挺拔；门前两侧的墙壁上还嵌饰有方形琉璃盘龙各一条。据传是为明代探花胡缵宗之故，朝廷特准在秦安文庙的墙壁上佩以盘龙。</view>
+  <view class="article">秦安文庙大成殿是古丝绸之路上典型的明代宗教殿堂建筑，其梁架结构严谨稳固、脊饰精致，斗拱形制宏大华丽而富有变化、彩画精美，槛墙内砌琉璃盘龙，形态逼真。整个殿宇形制古雅，风格粗犷，气势巍峨，是不可多得的历史文化遗产，也是研究古代建筑艺术不可多得的实物例证。大成殿是集建筑艺术、绘画艺术于一身的历史文化遗存，具有很高的历史、艺术和科学价值。</view>
+  <view class="textAlignCrnter">
+    <image src="https://t8.baidu.com/it/u=2886945040,3827859575&fm=218&app=126&size=f242,150&n=0&f=JPEG&fmt=auto?s=D722BDE2C8120CCE26F9C495030090C3&sec=1659891600&t=17c0f17b98d71fdda4ec93e75c78dd49" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E7%A7%A6%E5%AE%89%E6%96%87%E5%BA%99</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+<view wx:elif="{{index==7}}">
+  <view class="article">秦安县博物馆位于秦安县城兴国文化广场北侧，紧邻全国重点文物保护单位兴国寺。是1999年国家文物局帮扶秦安以来投资修建的，也是全省设施较为齐全的县级博物馆之一，2009年5月，被评为国家三级博物馆。该馆占地面积1700平方米，建筑面积860平方米。整体建筑古朴雄浑，呈四合院建筑格局，具有浓郁的地方特色。</view>
+  <view class="article">县博物馆的基本陈列为《成纪瑰宝——秦安历史文物精品陈列》，按照文明晨曦＼青铜光华＼汉唐雄风和佛教文物四个单元，分门别类地进行陈列，共展出文物216件。2007年5月又推出了《秦安馆藏书画展》，从馆藏书画中遴选出明代胡缵宗＼清代安维峻以及明福等人书画珍品54幅，陈列主题鲜明，设计新颖，在社会上产生了较大反响。</view>
+  <view class="article">2013年，在秦安县明清一条街成立了博物馆上关分馆。该管占地面积860平方米，展厅面积400平方米，展出明清时期牌匾66方，清代到当代的珍贵报纸、刊物617份。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/72f082025aafa40f4bfb721fe42b144f78f0f636b3e8?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">秦安县博物馆被列为天水市爱国主义教育基地，是天水市委、天水市人民政府公布的文明景区之一。自2008年3月免费开放以来，内部管理日臻完善，旅游参观人数逐年增多，受到观众普遍好评。</view>
+  <view class="article">与秦安县博物馆紧邻的兴国寺，建于元至顺（1330-1332）年间，明代列为秦安八景之一，该寺占地面积2800平方米，沿金刚殿进门，依次有天王殿、接引佛殿、钟楼、鼓楼、般若殿以及菩萨殿等。其主体建筑般若殿保留了明显的元代建筑特征，是甘肃省现存较早的木构建筑之一。1996年，被国务院公布为全国重点文物保护单位。</view>
+  <view class="h2">历史沿革</view>
+  <view class="article">新馆自2002年8月8日对外开放以来，已先后有5万多中外宾客和各界观众前来参观，现已成为秦安县对外宣传和开放旅游的重要窗口。2004年天水市人民政府公布其为市级文明景区。秦安县博物馆被列为天水市爱国主义教育基地，是市委、市政府公布的为文明景区。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/7a899e510fb30f2442a7a6cd87dac643ad4bd013a5e4?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">馆藏文物</view>
+  <view class="article">秦安县博物馆馆藏文物5516件，其中国家一级文物19件，二级72件，三级385件，为国家三级博物馆，其中新石器时代的人面器口彩陶瓶、马家窑文化的旋纹四彩陶瓮、齐家文化的玉琮、唐代的海马瑞兽葡萄纹铜镜、北朝至唐代的佛教石刻等许多文物都是举世无双的艺术珍品。为了更好地保护和利用这些珍贵的文化遗产，本馆购置了32列密封性好、抗震性强、经久耐用的密集柜，并安装了现代化的安全防范报警系统和消防、避雷系统。馆藏文物均已科学分类、有序存放，从源头上防止了文物的损伤。同时举办了《成纪八千年文物陈列展》、《秦安历史文物精品陈列展》和《馆藏书画精品展》，并购置了电脑、打印机、复印机等办公设备，极大地改进了本馆的办公条件和安全质量，其基础设施已达到甘肃省县级博物馆一流水平。在学术研究方面，近年，馆内出版了《秦安文物精品集粹》，专业人员发表了大量的论文，为研究和保护利用历史文化遗产，做出了显著的成绩。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/f7246b600c338744ebf8f8b61e40cef9d72a61590ae3?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E7%A7%A6%E5%AE%89%E5%8E%BF%E5%8D%9A%E7%89%A9%E9%A6%86</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+<!-- <view wx:elif="{{index==8}}">
+  <view class="textAlignCrnter"><image src="https://img0.baidu.com/it/u=2977704909,584690329&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500"></image></view>
+  <view class="textAlignCrnter"><image src="https://img1.baidu.com/it/u=594768608,2840193265&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500"></image></view>
+  <view class="textAlignCrnter"><image src="https://img0.baidu.com/it/u=2977704909,584690329&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500"></image></view>
+  <view class="textAlignCrnter"><image src="https://img0.baidu.com/it/u=2977704909,584690329&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500"></image></view>
+  <view class="textAlignCrnter"><image src="https://img0.baidu.com/it/u=2977704909,584690329&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500"></image></view>
+  <view class="article"></view>
+  <view class="article"></view>
+  <view class="article"></view>
+  <view class="article"></view>
+  <view class="article"></view>
+  <view class="article"></view>
+  <view class="article"></view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E5%A5%B3%E5%A8%B2%E7%A5%A0</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view> -->
+
+<view wx:elif="{{index==9}}">
+  <view class="article">大地湾博物馆位于甘肃省天水市秦安县东北面的五营乡邵店村大地湾遗址，距县城50公里，是中国著名的新石器时代的重要遗址。
+    大地湾遗址考古发掘出土最具代表性的文物有315件，其中有70件国家级珍贵文物。展览以简洁明快的设计风格，运用现代化的展示手段，诠释了古老的大地湾文明，重现了大地湾先民的生产生活情况，做到了科学性、艺术性、知识性和趣味性的有机结合。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/0dd7912397dda14468eec74dbbb7d0a20df4866e?x-bce-process=image/resize,m_lfit,w_220,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">历史沿革</view>
+  <view class="article">2006年3月，由财政部、国家文物局批准立项，大地湾博物馆2007年11月开工建设，投资2000余万元。占地面积26680平方米，建筑面积3155平方米。
+    2011年12月31日，大地湾博物馆正式开馆。</view>
+  <view class="h2">建筑布局</view>
+  <view class="article">其整体呈半地下式，主体部分曲折延伸到古河道，由文物库房、展厅及办公用房等部分组成。大地湾博物馆以“文明序曲———大地湾遗址考古成果展”为主题，分为发掘保护、岁月遗痕、陶风彩韵、光华永续四个单元。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/241f95cad1c8a7866a7e68ed6709c93d71cf50f8?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">馆藏文物</view>
+  <view class="article">考古工作者共在大地湾遗址清理发掘出房屋遗址240座，灶址98个，灰坑和窖穴325个墓葬71座，窑址35座及沟渠12段，累计出土陶器4147件、石器（包括玉器）1931件、骨角牙蚌器2218件以及动物骨骼1．7万多件。据考证，大地湾遗址大致可分为五期文化：前仰韶文化、仰韶文化早、中、晚期和常山下层文化。其历史年代从距今8000年一直延续到距今5000年。其中距今8000年的一期文化是我国西北地区迄今为止考古发现中最早的新石器文化。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/b7fd5266d0160924c524fbc9d00735fae7cd34da?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">考古发掘</view>
+  <view class="article">2006年6月至2008年10月，甘肃省文物考古研究所、兰州大学资源与环境学院和甘肃大地湾保护研究所联合对大地湾遗址进行了多次发掘，发现了距今6万年至8000年前的人类活动遗存，对研究旧石器时代的狩猎采集文化以及农业的起源提供了重要的资料。</view>
+  <view class="article">大地湾遗址位于天水市秦安县东北五营乡邵店村，距天水市102公里。大地湾遗址1958年后即公布为省级文物保护单位，1978年秋开始发掘，1988年被公布为全国重点文物保护单位。从发掘所获资料看，大地湾遗址，是甘肃东部地区发现较完好的一处原始社会新石器时代古文化遗存，距今4900-8120年。</view>
+  <view class="article">大地湾遗址位于天水市秦安县东北五营乡邵店村，距天水市102公里。大地湾遗址1958年后即公布为省级文物保护单位，1978年秋开始发掘，1988年被公布为全国重点文物保护单位。从发掘所获资料看，大地湾遗址，是甘肃东部地区发现较完好的一处原始社会新石器时代古文化遗存，距今4900-8120年。</view>
+  <view class="article">除陶器、骨角器、石器、蚌器、原始雕塑等艺术珍品外，特别值得提出的是大地湾的房屋建筑遗址，不仅规模宏伟，而且形制复杂。尤其是属于仰韶文化晚期(距今约5000年前)的F405大房子，是一座有三门开和带檐廊的大型建筑，其房址面积270平方米，室内面积150平方米，平地起建，1木骨泥墙，其复原图为四坡顶式房屋。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/6c224f4a20a446232c1586819822720e0df3d771?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">大地湾之最</view>
+  <view class="h3">中国最早的旱作农作物标本</view>
+  <view class="article">大地湾一期出土的炭化稷标本，与国外最早发现的希腊阿尔基萨前陶器地层出土的同类标本时代相近，它不仅将我国北方旱作农业的起源时间上推了1000年，而且表明北方最早种植的粮食品种为稷，然后才是粟的推广。而此前国内考古发现的北方农作物标本大多是粟，时间距今7000年左右。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/63d9f2d3572c11df1e3ce7f1672762d0f603c277?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h3">中国最早的彩陶</view>
+  <view class="article">大地湾一期文化出土的三足钵等200多件彩陶，是我国迄今为止发现的时间最早的一批彩陶。这批距今约8000年的紫红色彩陶，图案虽还不太完整，却将中国彩陶制造的时间上推了1000年，并以不容置疑的事实说明，西北黄土高原地区就是中国彩陶的起源地。</view>
+  <view class="h3">中国文字最早的雏形</view>
+  <view class="article">大地湾一期文化出土的三足钵等200多件彩陶，是我国迄今为止发现的时间最早的一批彩陶。这批距今约8000年的紫红色彩陶，图案虽还不太完整，却将中国彩陶制造的时间上推了1000年，并以不容置疑的事实说明，西北黄土高原地区就是中国彩陶的起源地。
+    中国文字最早的雏形</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/50da81cb39dbb6fd3b7bbef40d24ab18972b373b?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h3">中国最早的宫殿式建筑</view>
+  <view class="article">距今5000年的大地湾四期文化发掘出的一座编号为“F901”的建筑，是所见我国史前时期面积最大、工艺水平最高的房屋建筑。这座总面积420平方米的多间复合式建筑，布局规整、中轴对称、前后呼应、主次分明，开创了后世宫殿建筑的先河。</view>
+  <view class="h3">中国最早的“混凝土”地面</view>
+  <view class="article">面积达130平方米的“F901”宫殿式建筑主室，全部为料礓石和砂石混凝而成类似现代水泥的地面。这与古罗马人用火山灰制成的水泥同属世界上最古老的混凝土。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/50da81cb39dbb6fd384ebdf40d24ab18962b37ce?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h3">中国最早的度量衡与十进制</view>
+  <view class="article">大地湾仰韶晚期房F901中出土的一组陶质量具，是迄今为止，我国发现最早的量器。大地湾这套陶质古量器，出土于房F901的主室中（前堂）；主要有泥质槽状条形盘、夹细砂长柄麻花耳铲形抄、泥质单环耳箕形抄、泥质带盖四把深腹罐等。其中条形盘的容积约为264.3立方厘米；铲形抄的自然盛谷物容积约为2650.7立方厘米；箕形抄的自然盛谷物容积约为5288.4立方厘米；四把深腹罐的容积约为26082.1立方厘米。由此可以看出，除箕形抄是铲形抄的二倍外，其余三件的关系都是以十倍的递增之数。</view>
+  <view class="article">为了与古代量具名称相贴切，我们将在其相应容量的名称上冠以升、斗、斛之称谓，即可称为"条升、抄斗、四把斛"等，另外，在大地湾仰韶早期遗迹中出土的几件骨匕和铲形器上多见有等距离的圆点形钻窝刻度，并在窝内涂有红色颜料，它们应为当时测定某些东西长宽地尺度。包括前述F901内所出的一组陶质量具在内，它们都是我国最早“度、量、衡”器的实物佐证；并将我国度量衡实物史提前了二三千年。同时，这些度量衡具的发现也为研究我国古代分配制度、度量衡史以及十进制的起源等，提供了非常珍贵的实物资料。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/3bf33a87e950352a2bd07eda5743fbf2b3118bab?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E5%A4%A7%E5%9C%B0%E6%B9%BE%E5%8D%9A%E7%89%A9%E9%A6%86/6993002?fr=aladdin</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+<view wx:elif="{{index==10}}">
+  <view class="article">苏家峡水库位于甘肃省秦安县中山乡苏家峡村王家村河下游。该水库是以灌溉为主，结合防洪养鱼等综合利用的水库。</view>
+  <view class="article">1958年动工，1962年建成，1972年又延长了给水卧管，加高了大坝，并增建了侧槽和溢洪道。汇水面积67.5平方公里，总库容820万立方米。坝顶宽7米，坝顶长140米，坝高24米。
+  </view>
+  <view class="article">话不多说，看图！</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/b21c8701a18b87d6564608a2090828381f30fd03?x-bce-process=image/resize,m_lfit,w_235,h_235,limit_1/format,f_auto"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://dimg07.c-ctrip.com/images/100q09000000432s9EB66_C_1600_1200.jpg"></image>
+  </view>
+
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E8%8B%8F%E5%AE%B6%E5%B3%A1%E6%B0%B4%E5%BA%93</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+
+
+<view wx:elif="{{index==13}}">
+  <view class="article">泰山庙又名凤山，位于甘肃省天水市秦安县城东凤山上，建筑面积17000平方米。凤山是从大地湾附近的 九龙山向西延伸的余脉，其形似凤凰雄峙秦安县城，故名凤山。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/6d81800a19d8bc3ef7a55600808ba61ea9d3454e?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg" mode="widthFix"></image>
+  </view>
+  <view class="h2">景点特点</view>
+  <view class="article">根据明代胡缵宗《秦安志》和清代孙海《秦安县志》考证，泰山庙始建于元大德之前。数百年的发展过程中，泰山庙多次遭受灾害和自然侵蚀，也多次修整和扩建，至今，山上现存殿宇41座，建在拾阶而上的九个平台上，分一阁、一宫、二洞、三厅、五厦、六山门、二十四殿宇，布局精巧，错落有致，斗拱咬合精细、彩绘绚烂、既富于变化，又浑然一体。属于中国古典庭院园林建筑风格。</view>
+  <view class="article">从前山门而上依次是：财神殿、东岳泰山殿建筑群、蓬莱阁、鲁斑殿建筑群、五台观建筑群、碑林、三法宫、玉皇殿、三清殿、邀月亭和太白楼。全山有树龄在300年以上的 古柏32棵、石碑12块、儒、释、道三教塑像63座，大量的彩绘壁画，明清迄今的秦安名人和全国书法名家为凤山题写楹联牌匾41副。被誉为"陇上铁汉"的清代邑人安维峻诗赞曰："洞天高处是，烟井望中多"。为研究考察泰山庙的历史文化，提供了很好的第一手参考资料。历史的发展，形成集传统、宗教、民俗、建筑、雕塑、自然风光为一体的独特的凤山文化。建于乾隆十四年的蓬莱阁，成为景区标志性建筑和古城秦安的文化象征。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/472309f790529822abe66f09d5ca7bcb0b46d427?x-bce-process=image/resize,m_lfit,w_220,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">建筑特色</view>
+  <view class="article">泰山庙现存的庙宇均系清代以后补修的。泰山庙的殿、厦、亭、楼，是按照凤山山梁的自然地形，建造在拾级面上的6个山峦台阶上，合为建筑群。其间萦绕勾栏，盘曲石径相通连。
+    最前端山咀处是财神洞，为上山之曲径，洞口书“霞观叠雪”四字。过洞，顶上有财神庙。</view>
+  <view class="article">第一台阶，有东岳天齐庙、福神庙和蓬莱阁。东岳天齐庙(泰山庙)，雕梁画栋，富丽堂皇，为泰山庙建筑群之冠。据现存的石碑记载，庙宇落成于清同治十一年(1872)庙门为牌坊形建筑，上书“天齐庙”三字;庙内主体建筑东岳大殿，采用不模前后廊式建造。殿前建有抱厦，两厢配以斋舍；院中复建抱厦，并有一座精巧玲珑的四面坡过厅，直通东·岳大殿；厅的栋梁飞檐大都雕饰着彩色花纹，色彩绚丽，古朴典雅，规模宏大。院东为福神庙。殿后是蓬莱阁，耸立在一长方形的台基上，为乾隆十四年(1749)秦安知县蒋允创建，阁高三层16.7米，为重檐歇山顶楼阁，牙檐高啄，最为峻丽。殿西有通天门，为上山之大道，拾级面上，过门可至第二台阶。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/9825bc315c6034a868dce94bc913495409237639?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">第二台阶，中有甫道，东边建有洞宾庙，西边建有山神庙和鲁班殿，殿前有抱厦。整个建筑层次布局谐调，各俱异姿。</view>
+  <view class="article">第二台阶，中有甫道，东边建有洞宾庙，西边建有山神庙和鲁班殿，殿前有抱厦。整个建筑层次布局谐调，各俱异姿。</view>
+  <view class="article">第四台阶有三清宫，现仅存一大殿，附属建筑物均已被毁:。第五台阶有玉皇庙，规模宏伟，大殿尚存。
+    第六台阶有老君庙，今已无存。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/0d338744ebf81a4cb6abba03d52a6059242da65b?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="h2">历代保护</view>
+  <view class="article">泰山庙自创建以来，历代都有修缮。
+    清代数次遭破坏后重建： 康熙五十一年 (1712)邑人阎必正等重修；同治六年 (1867)，难民避泰山庙内，用火不当被焚后，同治十一年 (1872)又重修，规模初具。</view>
+  <view class="article">民国9年 (1920)大地震后又修缮，庙貌有改变。
+    1979年，秦安县革委会公布为县级文物保护单位。
+    1983年至1989年，县财政共拨款6.77万元，用于泰山庙的维修。</view>
+  <view class="article">1985年4月26日，县文化馆发出 《 关于资助修复泰山庙的倡仪》后，广大群众、县级党政机关、企事业单位、群众团体积极捐款。截止1989年底，连续5年时间，共捐款1.855万元修复泰山庙，使全庙焕然一新。庙内重修了登山石阶通道和殿宇，第一台到第二台的雨道全是用条石铺砌的状如“之”字形的盘曲台阶，两边还建有水泥嵌花栏杆和乳白色华灯。庙内安装卜了水电设施，新植松柏、冬青花木。殿宇内大都新塑有精美的佛像，墙壁上新绘有书画，书写遒劲，画工精巧。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/810a19d8bc3eb1357ba0e671a41ea8d3fc1f4490?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">注；本文来源于网络；<text class="fontblue" selectable>https://baike.baidu.com/item/%E6%B3%B0%E5%B1%B1%E5%BA%99/8896863?fr=aladdin</text>更多精彩，请长按复制链接，在浏览器打开</view>
+</view>
+<view wx:elif="{{index==14}}">
+  <view class="article">秦安明清街是一条满眼竟是古色古香的楼阁、精致典雅的门窗，仿若“穿越”。是经历800年风霜的甘肃秦安县明清古建筑一条街—明清街。明清街还被称之为上关街。在2005年2月被设为县级文物保护单位，该街的具体位置处秦安县城以南，秦安县医院不远处。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/fc1f4134970a304e35453612d2c8a786c8175cf6?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg" mode="widthFix"></image>
+  </view>
+  <view class="h2">发展历史</view>
+  <view class="article">公元1150年，秦安县建县时，该街就已存在，清道光年间，该地形成街景。当时，街道上共有40多家字号；该街道建筑全部采用土坯木结构，主街全长500米，占地6500平米。民国时期秦安县商会马会长的私宅就处于这条街上，这栋宅子属于清中晚期建筑，进入大门，便是称为水过凉亭的走廊，走廊两边是厢房，用来开商务会议和商务洽谈，大门正对的是会客厅。主人在当时修建房子很有思想，窗户雕花和房梁雕花都以“蝠”字为主，意为构建“万福之家”。据了解，已有很多影视剧在此拍摄外景。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/03087bf40ad162d903d266a312dfa9ec8a13cd55?x-bce-process=image/resize,m_lfit,w_440,limit_1/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article">丁氏民居是这条街上保护比较完整的清晚期四合院，有100多年的历史。建筑装饰主要以雕花和砖雕为主，以牡丹为基调，外加福字，取“万年富贵”之意。在正房的墙壁上刻有以“寿”字为中心，旁边围绕五个“蝠”字，意为“五福捧寿”。在这条街的东边，还有甘肃省保护最完整的明末清初宅子，临街是商铺，穿过商铺，两边厢房做账房和洽谈生意用，而正对商铺的是主人的正房。从正房的建筑风格来看，主人深受儒家思想的影响，严格按照当时条文的规定，房间进深六尺九，显得“很富但不贵”。
+  </view>
+  <view class="article">丁氏民居是这条街上保护比较完整的清晚期四合院，有100多年的历史。建筑装饰主要以雕花和砖雕为主，以牡丹为基调，外加福字，取“万年富贵”之意。在正房的墙壁上刻有以“寿”字为中心，旁边围绕五个“蝠”字，意为“五福捧寿”。在这条街的东边，还有甘肃省保护最完整的明末清初宅子，临街是商铺，穿过商铺，两边厢房做账房和洽谈生意用，而正对商铺的是主人的正房。从正房的建筑风格来看，主人深受儒家思想的影响，严格按照当时条文的规定，房间进深六尺九，显得“很富但不贵”。</view>
+  <view class="article">话不多说，请看图！</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=3668635898,597503115&fm=253&fmt=auto&app=138&f=PNG?w=599&h=397" mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=3419303845,2915138898&fm=253&fmt=auto&app=138&f=JPEG?w=747&h=500" mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=3828133599,1340739050&fm=253&fmt=auto&app=138&f=JPEG?w=630&h=422" mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=3414606816,283719065&fm=253&fmt=auto&app=138&f=JPEG?w=630&h=390"  mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://img2.baidu.com/it/u=3672601049,3486251784&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=1985174863,2174928496&fm=253&fmt=auto&app=138&f=JPEG?w=354&h=237"  mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=1786190850,2584220686&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=334"  mode="widthFix"></image>
+  </view>
+</view>
+
+<view>
+  <view class="scenerydecorte"></view>
+  <view class="sceneryrec">
+    <image mode="widthFix" src="/images/home/decorate/img_6.png"></image>
+    <view>更多精彩推荐</view>
+  </view>
+  <myscenery></myscenery>>
+</view>
+
+<!-- 底部样式 -->
+<view class="textAlignCrnter fontgray fooster">-----------你已经看到了我的底线--------</view>
+<view style="color: blue;margin-bottom: 50rpx;" class="textAlignCrnter">
+  <navigator open-type="switchTab" url="/pages/home/home"> 返回首页 </navigator>
+</view>

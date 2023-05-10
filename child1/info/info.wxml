@@ -1,0 +1,310 @@
+<!--pages/info/info.wxml-->
+
+<!-- 条件渲染模板 -->
+
+<!-- 简介 -->
+<view wx:if="{{string==1}}">
+  <image style="width: 750rpx;" mode="widthFix" src="https://img1.baidu.com/it/u=3161415876,817297099&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1660064400&t=3b9ddffb374fc6f16dc44072813d88e3"></image>
+  <view class="h1">秦安县简介</view>
+
+  <view class="article .lightblue">
+    秦安县隶属甘肃省天水市，位于甘肃省东南部，天水市北部，渭河支流葫芦河下游；中心位置位于北纬34°51′，东经105°40′；总面积1604平方千米。截至2015年，秦安县辖12个镇、5个乡。 根据第七次人口普查数据，截至2020年11月1日零时，秦安县常住人口为416337人。
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://tse1-mm.cn.bing.net/th/id/OIP-C.FIVZ6plIVJ1v5IdWzqrORQHaFj?w=204&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view>
+    <image style="width: 100rpx;margin-left: 150rpx;" src="https://mmbiz.qpic.cn/mmbiz_gif/icS6QYnhpJckHlIj5d2BibCpyUibsiaIrSyMpiaAMNTNVtSeaGekkbMzokxl3zuzasdFupV8icJiaofSa5GLsVuV7pkCw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1" mode="widthFix"></image>
+  </view>
+  <view class="article lightblue">
+    秦安县属陇中南部温带半温润气候，年平均气温10.4℃，正常年景年均降水量507.3毫米。秦安县属陇中黄土高原西部梁峁沟壑区，山多川少，是甘肃省十八个干旱县之一。
+  </view>
+  <image src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXEYiaiaXUgsTRfKSO9z4AODVLk7xoibr1VuRjqSibyfkgSSjNouUy7VVmksvg3eAqKzBEYDibnF89aW54Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix" style="width: 160rpx; margin-left:550rpx;"></image>
+  <view class="article lightblue">
+    2020年，秦安县实现生产总值78.66亿元，财政支出完成52亿元，社会消费品零售总额完成39.37亿元，全县金融机构存款、贷款余额分别达174.68亿元、121.52亿元，稳居全市五县第一；固定资产投资完成44.61亿元，连续三年保持两位数增长速度；大口径财政收入完成11.94亿元，是2015年的2.5倍；一般公共预算收入完成2.76亿元，规模以上工业增加值完成1.47亿元，城镇、农村居民人均可支配收入分别为30772元、9332元。
+  </view>
+  <!-- 播放视频 -->
+  <!-- <view class="article">一个视频带你了解秦安↓</view>
+  <view class="textAlignCrnter">
+    <video src=""></video>
+  </view> -->
+</view>
+
+<!-- 历史 -->
+<view wx:elif="{{string==2}}">
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.36Z-VtikK_KX1mxNKULtTwHaFj?w=223&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h1"><text>秦安的历史沿革</text></view>
+  <view class="h2 .lightyellow1">西汉</view>
+  <view class="article lightblue"> 汉承秦制，以郡辖县，郡国并行。汉武帝元鼎三年（前114年），陇西郡分置天水郡，郡治平襄（今通渭县治）。当时天水郡辖16县，县治在今秦安境的有街泉县（治今陇城镇）、成纪县（治今叶堡川）、略阳道（治今五营乡蔡河村）。武帝元封五年（前106年），分全国为13州部（监察区），县地属凉州天水郡。</view>
+  <view class="article lightblue">初始元年（8年）王莽篡汉，改天水郡为填戎郡，县地属填戎郡。更始元年（23年），成纪人隗嚣应更始帝刘玄聚众十万反对王莽，攻占了平襄，建立了割据陇右诸郡的西州政权，县地隗嚣占据达十年之久。</view>
+  <view class="h2 lightyellow1">东汉</view>
+  <view class="article lightblue">刘秀称帝后，为实现其统一大业，于建武八年（32年）亲征陇上，占了略阳道故城，陇右失地复归东汉。光武中兴，以官多役烦，省并天下郡、县、道治地。在今秦安境内废略阳道，置略阳县（街泉县改名）。移凉州治于陇（今张家川治）。建武中元元年（56年），划成纪县地为显亲侯窦固的侯国封地。明帝永平十六年（73年），天水郡改名汉炳郡，治冀县（今甘谷县），辖13城（县），县治在今秦安境内的略阳县、成纪县。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse2-mm.cn.bing.net/th/id/OIP-C.pVeDt-Tica411gUPBe_Z1AHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2 lightyellow1">三国</view>
+  <view class="article lightblue">魏文帝黄初元年（220年），复汉阳郡为天水郡（治冀县），分雍州的陇右部分为秦州，县地属秦州天水郡。黄初二年（221年），从天水郡分置广魏郡，郡治临渭（今县东南）。改置显亲侯国地为显亲县（今县东北）。县境内并存三县，由两郡管辖。成纪县显亲县属秦州天水郡。略阳县属秦州广魏郡。</view>
+  <view class="h2 lightyellow1">南北朝</view>
+  <view class="article lightblue">魏太武帝太延五年（439年），北魏统一北方，县地属北魏。太平真君八年（447年），将显新县并入安戎后复建，临渭县并入陇城县（略阳县改名）。县境内并存三县，由两郡管辖。成纪县、显新县属秦州天水郡；陇城县属秦州略阳郡，郡治安戎县（今张家川县龙山镇）。</view>
+  <view class="h2 lightyellow1">北魏</view>
+  <view class="article lightblue">废除成纪县，新置安阳县（治今古城乡），兼设安阳郡，安阳郡辖安阳县、乌水县（今县西北）。孝武帝永熙三年（534年），北魏分裂，县地属西魏。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.vxZStP3G4dzdvN0FDaadKAHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2 lightyellow1">隋朝</view>
+  <view class="article lightblue">初，废郡为州。文帝开皇三年（583年）废除略阳郡。略阳县改名河阳县。开皇六年（586年）恢复显新县（即显亲），河阳县改名陇城县。开皇十八年（598年）安阳郡废，安阳县改名长川县。炀帝大业三年（607年）废除显新县，与乌水县一同并入长川县，由两郡管辖。成纪县、陇城县属天水郡，长川县属陇西郡。大业九年（613年），金城府校尉薛举，称帝天水，县地被薛举占领。</view>
+  <view class="h2 lightyellow1">唐朝</view>
+  <view class="article lightblue">高祖武德元年（618年），讨平薛举，县地属唐。唐初，改郡为州，武德二年（619年），以陇城县置文州，县境内一州二县。武德八年（625年），改文州为陇城县，属秦州。太宗贞观元年（627年），在州之上分全国为十道（监察区），县地属陇右道秦州。贞观六年（632年），废长川县，并入陇城县。唐玄宗开元二十二年 （734年），因地震，秦州移治成纪县的敬亲川（今叶堡川），因陇水南侵，成纪亦迁新城。天宝元年（742年），秦州复移治上邽，改秦州为天水郡，辖成纪、陇城、上邽、伏羌、清水五县。肃宗乾元元年（758年），改天水郡为秦州。代宗宝应元年（762年），陇右被吐蕃占领，县地城廓皆毁。宣宗大中三年（849年），沦陷地收归唐朝。懿宗咸通四年（863年）废除陇城县。昭宗景福二年（893年），秦、陇、凤、岐等15州，为风翔节度使李茂贞所据。</view>
+  <view class="h2 lightyellow1">五代</view>
+  <view class="article lightblue">前蜀高祖永平五年（915年），前蜀主王建收复李茂贞占领之地，县地属前蜀。后唐庄宗同光三年（925年），李存勖灭前蜀，县地属后唐。后唐明宗长兴三年（932年），就归化镇复置陇城县，治所在秦州东的东柯谷（今北道区马跑泉西）。</view>
+  <view class="article lightblue">后唐末帝清泰三年（936年），石敬瑭灭后唐建立后晋，县地属后晋。后晋出帝开运三年（946年），契丹灭后晋，第二年，雄武军节度使何建斩契丹使者，以秦、成、阶三州投降后蜀，县地属后蜀。后周世宗显德二年（955年），柴荣下诏伐蜀，取秦、成、凤、阶4州，县地属后周。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.phrAQwaLop4MA_8VZcwgugAAAA?w=189&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2 lightyellow1">宋朝</view>
+  <view class="article lightblue">初仍袭唐制，分全国为十道。宋太祖建隆三年（962年），县地属陇右道秦州雄武军节度。太宗太平兴国后移成纪县治于上邽。后废天水郡，而以成纪名郡。有显亲川之成纪，有秦州附廓之成纪。太宗至道三年（997年），改道为路，分领府、州、县、军、监。县地属陕西路秦州雄武军节度。仁宗庆历五年（1045年），置陇城寨（治今陇城镇）。英宗治平四年（1067年），置鸡川寨（今属通渭县）。神宗熙宁五年（1072年），从陕西路分置秦凤路(治秦州）和永兴路，县地属秦凤路秦州雄武军节度。宋高宗建炎四年（1130年）县地陷于金。绍兴九年（1139年）被南宋收复。绍兴十二年（1142年）以渭河为界，割秦州一半予金，县地属金。</view>
+  <view class="h2 lightyellow1">金朝</view>
+  <view class="article lightblue">熙宗皇统二年（1142年），秦凤路改称熙秦路。金人占领县地后，以秦寨为秦安城。金正隆二年（1157年），以秦安城、腊家城始置秦安县（治今兴国镇）。秦安作为县名由此开始。同时析置鸡川县。金世宗大定二十七年（1187年），熙秦路改称凤翔路，秦州隶属凤翔路，改陇城寨为县。秦州统领秦安、陇城、鸡川等八县。秦安县属凤翔路秦州管辖。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.j3S-_Vc7N5iE0LU1u6MnawHaE8?w=267&h=183&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2 lightyellow1">元朝</view>
+  <view class="article lightblue">始设行中书省，以省辖路，路辖州（府），州辖县。世祖至元七年（1270年），将陇城县、鸡川县并入秦安县。至此，秦安始为一县，为秦州管辖。至元十八年（1281年），分置陕西、甘肃两个行中书省，秦安县属陕西行中书省巩昌总帅府秦州管辖。</view>
+  <view class="h2 lightyellow1">明朝</view>
+  <view class="article lightblue">洪武二年（1369年），巩昌府直隶陕西行中书省，秦州属巩昌府（治今陇西县），秦安县属陕西行中书省巩昌府秦州管辖。洪武九年（1376年），改行中书省为布政使司，统各府州县，废甘肃行中书省。秦安县属陕西布政使司巩昌府秦州管辖。</view>
+  <view class="h2 lightyellow1">清朝</view>
+  <view class="article lightblue">康熙二年（1663年），分陕西为左右布政使司，以右布政使司驻巩昌，秦安县属陕西右布政使司巩昌府秦州管辖。康熙八年（1669年），陕甘分省，秦安县属甘肃巩昌府秦州管辖。雍正七年（1729年），升秦州为秦州直隶州，直隶甘肃省，辖秦安等5县。光绪二年（1876年），秦安县属甘肃省巩秦阶道直隶秦州管辖。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.p9w4JI9OSNP-kD36FEQuWwHaFF?w=245&h=191&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2 lightyellow1">民国时期</view>
+  <view class="article lightblue">中华民国二年（1913年），北京政府推行省、县两级制，暂存道制，以联络督导。改巩秦阶道为陇南道。</view>
+  <view class="article">中华民国民国三年（1914年），改陇南道为渭川道（治今秦州区），统领秦安等14县。</view>
+  <view class="article lightblue">中华民国十六年（1927年），南京国民政府废道设行政区，实行省、县两级制，秦安县属甘肃省渭川行政区管辖。</view>
+  <view class="article">中华民国二十四年（1935年），全省划设7个行政区，天水为第四区，秦安县属甘肃省第四区行政督察区管辖，直至秦安解放。</view>
+  <view class="h2 lightyellow1">现代</view>
+  <view class="article lightblue">1949年8月3日，秦安县解放后，属甘肃省天水分区行政督察区管辖。</view>
+  <view class="article">1951年，天水分区行政督察区改称为天水区，辖秦安等12个县（市）。</view>
+  <view class="article lightblue">1955年，天水区改称为天水专区，辖秦安县等13县（市）。</view>
+  <view class="article">1969年，天水专区改称为天水地区，秦安县属天水地区。</view>
+  <view class="article lightblue">1985年7月8日，经国务院批准，撤销天水地区，设地级市，实行市管县体制，秦安县属天水市。</view>
+  <view class="textAlignCrnter">
+    <image src="https://bkimg.cdn.bcebos.com/pic/0824ab18972bd4072e435ec375899e510fb30903?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UyNzI=,g_7,xp_5,yp_5/format,f_auto" mode="widthFix"></image>
+  </view>
+  <view class="article lightblue">2004年01月，撤乡并镇。撤销郑川乡并入兴国镇，撤销郭集乡并入王铺乡；撤销吊湾乡，将吊湾、段坡、月阳、朱沟、把龙、何湾、刘湾、孙坡、王家阴屲、陈沟、胡河、河滩、背后沟、下庄14个行政村并入郭嘉镇，辛屲、贠湾、张家坡、蒋台、任学、张家坪6个行政村划归魏店乡；撤销好地乡，将好地、马曲、双庙、姚屲、董家新庄、安台、吴湾7个行政村划归莲花镇，杜湾里、宋湾、杨峡、李河、魏坟、大庄、阳屲7个行政村划归安伏乡，程沟、程家崖湾、王沟、吴沟、武庄、窦家沟6个行政村划归叶堡乡；撤销古城乡，将康坡、蔡小、孙蔡、小湾、蔚林、腰崖、贾川、李家河8个行政村划归兴国镇，后沟、胡家崖湾、缑湾、吊坪、郭屲、何山6个行政村划归中山乡，草湾、孟河2个行政村划归王尹乡，郑峡、那坡、何杨、董家大庄、张庄5个行政村划归兴丰乡。</view>
+  <view class="article lightblue">2006年11月15日，秦安县政府下发《关于乡镇村组行政区划调整的批复》文件，将全县原有515个村，撤销88个村，新成立1个村：兴国镇撤销6个村，莲花镇撤销2个村，西川镇撤销13个村，陇城镇撤销8个村，郭嘉镇撤销7个村，刘坪乡撤销1个村，五营乡撤销1个村，中山乡撤销6个村，叶堡乡撤销3个村，安伏乡撤销4个村，魏店乡撤销2个村，王铺乡撤销5个村，千户乡撤销17个村，王窑乡撤销3个村、新成立1个村，兴丰乡撤销1个村，云山乡撤销1个村，王尹乡撤销8个村。撤并后全县共辖428个村。</view>
+  <view class="article lightblue">2015年，甘肃省民政厅批复同意：撤销五营乡、叶堡乡、魏店乡，设立五营镇、叶堡镇、魏店镇（甘民复〔2015〕12号）；撤销千户乡、兴丰乡、安伏乡、王尹乡，设立千户镇、兴丰镇、安伏镇、王尹镇（甘民复〔2015〕113号）。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=612271828,2610501098&fm=253&fmt=auto&app=138&f=JPEG?w=890&h=500" mode="widthFix"></image>
+  </view>
+</view>
+
+<!-- 秦安的地理环境 -->
+<view wx:elif="{{string==3}}">
+  <view class="textAlignCrnter">
+    <image style="width:100%;" src="https://tse3-mm.cn.bing.net/th/id/OIP-C.lUIdm8f4AwDlbLPSg3_mBQHaFj?w=275&h=206&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h1"><text>秦安的地理环境</text></view>
+  <view class="h2">（一）位置境域</view>
+  <view class="article lightgreen"><text class="fontred">秦安县位于甘肃省东南部，天水市北部，</text>渭河支流葫芦河下游；中心位置位于北纬 <text class="fontred">34°51′</text>，东经 <text class="fontred">105°40′</text>，县域东西长约65千米，南北宽约50千米，总面积 <text class="fontred">1604</text>平方千米。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.2zRVWCoLoD3nLaJUzvR2IwAAAA?w=253&h=184&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2">（二）地形地貌</view>
+  <view class="article l">秦安县地处黄土高原内陆，地貌特征体现了典型的 <text class="fontred">黄土梁、沟壑和河谷地形</text>，相互穿插分布。王铺梁、中山梁、千户岭、云山等各大山梁，均被厚层黄土覆盖。地势起伏不平，多趋向县城所在地的兴国盆地。县境内海拔120米一2020米，高差2000米。秦安县的地貌特点<text class="fontred">是黄土分布广泛，山多川少，沟壑密布，河谷多呈葫芦状，沟谷泥流和黄土滑坡现象较频繁</text>。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.1MYda9R_29_po8MxU9WA3wHaE7?w=263&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2">（三）气候</view>
+  <view class="article lightblue">秦安县属陇中南部温和半湿润季风气候区。春季蒙古高压气流向西北退缩，暖气团势力逐渐转强，温度回升较快，雨量逐渐增多，冷暖气流交会频繁，多吹风天气；仲春4月，冷空气尤多，出现倒春寒天气；夏季，受蒙古低压控制，盛行偏南风和偏东风，降水增多；盛夏，气候炎热，在西北气流的影响下，产生局地对流天气，易出现大风冰雹和暴雨；秋季，太阳高度角降低，湿度迅速降低，大陆低压消减南撤，蒙古高压复迅南下；初秋空气潮湿，多阴雨天气，降水较充沛；晚秋降水渐少，降温加快，秋高气爽；冬季时间长，受蒙古冷高压和极地变性大陆气团影响，<text class="fontred">地面多西北风，气压较高，气温较低</text>，干冷少雪，多晴冷天气。因此，秦安县的气候特点是：气候温和，日照充足，降水较少，干旱频繁，夏无酷暑，冬无严寒，夏湿冬干，大陆性季风气候显著。</view>
+  <view class="article lightblue">秦安县年平均日照时数为2206.7小时，年日照百分率为50%。根据秦安县气象局1959年-2001年的记载， 日照时数最多为2484.9小时（1965），最少为1761.3小时（1959），一年中以6月最多，为249.6小时，10月最少，为144.4小时；一日最长日照时数为13.7小时。四季中以夏季日照时数最多，为678.5小时，占全年的30.7%；冬、春居中；秋季最少，为439.1小时，占全年的19.9%。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.qMf2mZAeyVhHtLE2OMQL_gHaFj?w=269&h=202&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2">（四）水文</view>
+  <view class="article lightblue">秦安县的水文，主要是河流和地下水。河流、沟谷分布均匀，降水和蒸发量差别较小。在40毫米一70毫米之间，年均径流深度为52毫米。径流的年内分配，4月一6月占全年的17%，7月一9月占55%，其余6个月仅占28%。以清水河流域最高，径流深度为76毫米，年均每平方千米径流量为7．6万立方米，南小河流域径流深度为55毫米，显亲河流域49毫米，葫芦河流域46.9毫米，最低的西小河流域径流深度为43.3毫米。</view>
+  <view class="article lightblue">水系以纵贯南北的葫芦河水系为主，流域面积1493.34平方千米，散渡河水系次之，流域面积107.79平方千米。两水系均属渭河水系。葫芦河东西两侧地势渐高，四大支流从两侧汇人葫芦河，东为清水河和南小河为主，西侧为显亲河和西小河，呈树枝网状排列。水的化学成分为碳酸盐类，离子总数低于300毫克研，属软水。全县径流总量约有70%由降水补给。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse1-mm.cn.bing.net/th/id/OIP-C.YPl6cpYGyltlD1LjBNn_EgHaFj?w=215&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+</view>
+
+<!-- 秦安的自然资源 -->
+<view wx:elif="{{string==4}}">
+  <view class="textAlignCrnter">
+    <image src="https://tse2-mm.cn.bing.net/th/id/OIP-C.Qpm6zkgdgU9PC3sNUVgkiQHaE6?w=258&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h1"><text>秦安的自然资源</text></view>
+  <view class="h2">（一）植物资源</view>
+  <view class="h3">综述</view>
+  <view class="article lightwhite">秦安县由于原始森林破坏殆尽，植被种类较为贫乏。截至2001年，各种植被中，就分布面积来说，以农作物植被为主，约占949平方千米，占总面积的59.30%；就植被种类来说，以草本植物最多，约260多种，占植被总种数的57．7%；就植被的形状、功能和性状来说，可分为乔木、灌木、草本、农作物、果树、药用植物和观赏植物七大类。明<text class="fontred">《秦安志》</text>共记载植物105种，其中林木13种，粮食作物11种，蔬菜瓜果植物33种，药用植物19种，观赏植物11种，杂草18种。截至2001年，秦安县已弄清名目的植物共455种。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.OsDTmR8DENs2HE598SoTrQHaDg?w=332&h=166&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h3">乔木</view>
+  <view class="article lightwhite">乔木是构成秦安县植被的主体，可分为
+    <text class="fontred">天然乔木</text>和
+    <text class="fontred">人工乔木</text>两大类。天然乔木在郭集乡青林沟残存，仅85亩次生林；人工乔木主要分布黄土梁顶部、荒坡、沟壑及各村镇居民点、公路旁，是秦安县的主要林木。截至2001年，全县有乔木36科，54属，87种。
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.XCkZ2QLd8R5oaPiXNkdGJQHaE7?w=253&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h3">灌木</view>
+  <view class="article lightwhite">秦安县的灌木有天然和人工栽培的两种。截至2001年，灌木种类有：紫荆、刺玫、枸杞、五加、西河柳、连翅、女贞、扶桑、黄柏、杠柳、牛皮梢、金丝桃、杞柳、狼牙刺、紫穗槐、锦鸡儿、金雀花、胡颓子、剪子刺、沙棘、拴翘卫茅、小叶鼠李、野山楂、木瓜、水枸子、扁拉木、文冠果（龙瓜）、荚莲、修枝荚莲、忍冬等。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse3-mm.cn.bing.net/th/id/OIP-C.2EOCeaNfeOGhyOwgzxolygHaFj?w=223&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h3">草本</view>
+  <view class="article lightwhite">草本是秦安县种类和数量最多的植物，分野生草本和人工牧草两类。野生草本在深山、浅山和川台区的沟坡、田间、地埂都有分布，建群种多由旱生植物组成，其中以丛生禾草为主。人工牧草以豆科牧草为主。据统计，截至2001年，秦安县的草本植物有近300种。</view>
+  <view class="textAlignCrnter">
+    <image src="https://mmbiz.qpic.cn/mmbiz_gif/PheWqibTAgXGBTibUCWzYz0G1bYjNT2NOtx9jib7o96t27RlicBJfdxlQ1IbREPlz4oWibCvGqGxVMkE4bRKician6uLQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1" mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://tse2-mm.cn.bing.net/th/id/OIP-C.q8Mu3DSUXD8tSn-TjUvS5QHaDv?w=350&h=176&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2">（二）动物i资源</view>
+  <view class="article lightwhite">截至2001年，秦安县动物以干旱草原和农田型为主，属国家三类保护的仅有鸢、雉鸡（野鸡）、雀鹰（鹞子）、苍鹰（老鹰）和石貂（崖貂）5种，其种类和数量都很少。秦安县共有野生鸟类7目，14科，30种，其中留鸟为22种，夏候鸟7种，冬候鸟1种。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse3-mm.cn.bing.net/th/id/OIP-C.A09ZyvXkNpsTkpHVonCj2QHaEK?w=294&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="h2">（三）水资源</view>
+  <view class="article lightwhite">
+    截至2001年，秦安县自产地表水，多年平均径流量为8310万立方米，人均192立方米，亩均66立方米，加上过境水共53276万立方米，人均1231立方米，亩均426立方米。大部分径流集中在7月一9月，此期降水量占全年的50%。年平均侵蚀模数为8532吨坪方千米，县西北部高达11000吨坪方千米以上。</view>
+  <view class="textAlignCrnter">
+    <image src="https://tse4-mm.cn.bing.net/th/id/OIP-C.qCvrp42fcFKauFXhWPh38wHaE8?w=259&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter"><image src="https://mmbiz.qpic.cn/mmbiz_gif/PheWqibTAgXGBTibUCWzYz0G1bYjNT2NOtrsv7CaM6ncbvt103bgcc5oOYdv71psfRoicG5cDgbEICkrVepculDYQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1" mode="widthFix"></image></view>
+</view>
+
+<!-- 秦安的经济发展 -->
+<view wx:elif="{{string==5}}">
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://img2.baidu.com/it/u=1262870941,1538444077&fm=253&app=120&size=w931&n=0&f=PNG&fmt=auto?sec=1659891600&t=5a0e0e308ad400dd434f50c32f9fc60c"></image>
+  </view>
+  <view style="margin: 50rpx;" class="h1"><text>秦安的经济发展</text></view>
+  <view class="h2 lightgreen">（一）综述</view>
+  <view class="article lightwhite">
+    2013年，秦安县实现生产总值49亿元，比2012年增长14%，其中：第一产业17.5亿元，比2012年增长7.6%；第二产业12.6亿元，比2012年增长17%；第三产业18.9亿元，比2012年增长14%。大口径财政收入完成2.7亿元，比2012年增长30.4%。固定资产投资完成43.85亿元，比2012年增长38%。</view>
+  <view class="article lightwhite">2014年，秦安县实现生产总值47.8亿元，比2013年增长9.2%，其中：第一产业16亿元，比2013年增长6%；第二产业11.5亿元，比2013年增长13.6%；第三产业20.3亿元，比2013年增长9%。大口径财政收入完成4.38亿元，比2013年增长62.7%。固定资产投资完成39.8亿元，比2013年增长20.2%。社会消费品零售总额完成25.1亿元，比2013年增长13.6%。农民人均纯收入5042元，比2013年净增611元；城镇居民人均可支配收入17620元，净增1514元。</view>
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://img0.baidu.com/it/u=409905922,3667749396&fm=253&app=138&size=w931&n=0&f=JPG&fmt=auto?sec=1659891600&t=95414dc75bd3d2d21116f06775396c9c"></image>
+  </view>
+  <view class="article lightwhite">2015年，秦安县生产总值达到52.6亿元，是2010年的1.7倍，年均增长11.6%。大口径财政收入4.8亿元，是2010年的3.6倍，年均增长29.5%。固定资产投资44.9亿元，是2010年的2.3倍，年均增长19%。</view>
+  <view class="article lightwhite">经省市初步评估核算，2018年全县实现地区生产总值561125万元，按可比价格计算增长4.0%。分产业看：第一产业完成增加值140045万元，增长4.3%;第二产业完成增加值110255万元，增长0.7%;第三产业完成增加值310826万元，增长5.3%。全县人均地区生产总值达到10615元，人均地区生产总值增速为3.6%(按52.86万平均常住人口计算)。</view>
+  <view class="article lightwhite">2020年，实现生产总值78.66亿元，财政支出完成52亿元，社会消费品零售总额完成39.37亿元，全县金融机构存款、贷款余额分别达174.68亿元、121.52亿元，稳居全市五县第一；固定资产投资完成44.61亿元，连续三年保持两位数增长速度；大口径财政收入完成11.94亿元，是2015年的2.5倍；一般公共预算收入完成2.76亿元，规模以上工业增加值完成1.47亿元，城镇、农村居民人均可支配收入分别为30772元、9332元。</view>
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://img1.baidu.com/it/u=2006292305,2708885614&fm=253&app=138&size=w931&n=0&f=JPG&fmt=auto?sec=1659891600&t=e58dd243fbc3f7ba123c700638630b50"></image>
+  </view>
+  <view class="h2 lightgreen">（二）第一产业</view>
+  <view class="article lightwhite">2009年，秦安县果椒总收入4.41亿元，比2008年增长25%。新建养殖小区15个，新增养鸡100万只，畜禽饲养总量达到352.7万头（只）。2009年新增专业合作经济组织7个，推广玉米全膜覆盖技术9万亩，种植洋芋15.4万亩，新建无公害蔬菜生产基地5000亩，粮食总产达18.8万吨，比2008年增长20%。</view>
+  <view class="article lightwhite">2013年，秦安县新建优质果椒基地5万亩，全县果椒总产量达47.4万吨。新建规模化养殖场11个。新发展农民专业合作社41个、村级农技协会60个，开展60个村的新型农业社会化服务体系建设试点工作。推广玉米全膜覆盖17.1万亩，粮食总产达20.8万吨。</view>
+  <view class="article lightwhite">2015年，秦安县林果总产量达71.1万吨，总产值达27.3亿元。五年累计推广全膜玉米97.6万亩，新增规模化养殖场61个，创劳务收入72亿元，粮食产量连续四年超过20万吨。累计发展农民专业合作社361个、家庭农场52家。在叶莲路、兴中路等公路沿线和魏店南山、郭嘉寺咀梁等重点区域完成生态造林11万亩，栽植行道树910千米。</view>
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://img1.baidu.com/it/u=2327781116,4132484743&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1659891600&t=2908339a439a29ec14984bd3ed94e9d3"></image>
+  </view>
+  <view class="h2 lightgreen">（三）第二产业</view>
+  <view class="article lightwhite">2010年，秦安县工业企业从业人员达到16347人，实现总产值15.96亿元，工业增加值3.85亿元。其中规模以上工业企业12户，实现工业产值4.45亿元，工业增加值1.1102亿元，税金361.12万元。</view>
+  <view class="article lightwhite">2013年，秦安县规模以上工业增加值达到2.7亿元，比2012年增长20.5%。 </view>
+  <view class="article lightwhite">2015年，秦安县完成规模以上工业增加值3.3亿元。</view>
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://img0.baidu.com/it/u=1292631021,3540685043&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1659891600&t=25e2d88ce74c1f55e3a5abb5c2e9eed0"></image>
+  </view>
+  <view class="h2 lightgreen">（四）第三产业</view>
+  <view class="article lightwhite">2013年，秦安县新发展个体工商户和私营企业2777户，注册资金6.2亿元。社会消费品零售总额完成23.04亿元，比2012年增长20.3%。</view>
+  <view class="article lightwhite">2013年，秦安县金融机构各项存款余额79亿元，比2012年增长23%；各类贷款余额35亿元，比2012年增长23 %。</view>
+  <view class="article lightwhite">2015年，秦安县完成社会消费品零售总额27.5亿元。</view>
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://img0.baidu.com/it/u=2367943726,2532509123&fm=253&app=120&size=w931&n=0&f=JPEG&fmt=auto?sec=1659891600&t=84e776a54e5c68178c4731ca51435ed7"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image mode="widthFix" src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F0524%2F84b7edb9j00rcdp0b002qc000u000bug.jpg&thumbnail=660x2147483647&quality=80&type=jpg"></image>
+  </view>
+
+</view>
+
+<!-- 秦安的社会事业 -->
+<view wx:elif="{{string==6}}">
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=3748813940,376835913&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1659891600&t=952da24a78aa5d116ded353b27c13047" mode="widthFix"></image>
+  </view>
+  <view class="h1"><text>秦安的社会事业</text></view>
+  <view class="h2">（一）基础建设</view>
+  <view class="article lightgray">
+    2015年，秦安县共落实各类项目<text class="fontweight">1334</text>项，总投资<text class="fontweight">44.8</text>亿元，其中国家投资
+    <text class="fontweight">36.4</text>亿元。宝兰客专高架桥在秦安境内全线贯通，750千伏输变电工程全面完成，引洮供水二期、平天高速公路等国家重点项目启动，总投资5.9亿元的棚户区改造、5.1亿元的大地湾国家考古遗址公园建设、3.2亿元的凤山不稳定斜坡治理等重大项目顺利实施。拆除北坛、城南片区等区域建筑物11.9万平方米，改造铺油城区道路20.9千米，铺设人行道10万平方米。五营、兴丰等7乡实现撤乡改镇，陇城、魏店、叶堡等乡镇小城镇建设取得新进展。新建通乡油路2条44.4千米，完成农村公路通畅工程361条924.9千米。建成农村安全饮水工程16处、节灌工程3处，新修堤防73.1千米，整治土地15.4万亩，治理小流域151平方千米。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img0.baidu.com/it/u=3537711533,1673845541&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1659891600&t=9f64fce3e4e0a8967347c6b9aa371fb0" mode="widthFix"></image>
+  </view>
+  <view class="h2"> （二）社会保障</view>
+  <view class="article">
+    2015年，秦安县建成保障性住房38.6万平方米，改造农村危旧房1.3万户，解决了30.8万人的饮水不安全问题。农村居民、城镇居民人均可支配收入均比2010年翻了一番，分别达到6068元、20565元。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=426958493,3961527549&fm=253&fmt=auto&app=120&f=JPEG?w=640&h=360" mode="widthFix"></image>
+  </view>
+  <view class="h2">（三）教育事业</view>
+  <view class="article lightwhite">
+    2010年，秦安县小学入学率、巩固率、毕业率、升学率分别达到99.70%、97.49%、99.81%和95.03%。初中入学率、巩固率、毕业率、升学率分别达到98.90%、96.23%、99.98%和55.36%。 2008年高考二本以上上线1406人，2009年高考二本以上上线1614人，2010年高考二本以上上线1802人，2011年高考二本以上线突破2000人，通过“走出去”培训校长218人次，培训教师2400多人次，参加“国培计划”和“网络研修”培训教师达1600多人。实施项目学校91所，项目总投资1.24亿元，新、改建校舍建筑面积11.53万平方米，其中消除危房4.21万平方米，落实学校建设用地510多亩。划拨学校建设用地313亩，完成了县二中、县职校、兴国四小、兴国一小、兴国三小改扩建工程，兴国中学、兴国二小、县第二幼儿园搬迁新建，启动了县一中改扩建工程，桥南初中建设项目。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=1395688645,1957323182&fm=253&fmt=auto&app=138&f=PNG?w=585&h=389" mode="widthFix"></image>
+  </view>
+  <view class="article">截至2015年，秦安县累计实施教育建设项目357个，完成投资5.8亿元，新建、改扩建中小学校舍26.6万平方米，消除D级危房13.6万平方米，县一中成功创建为省级示范性普通高中。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=1852935506,3719628796&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=480" mode="widthFix"></image>
+  </view>
+
+  <view class="h2">（四）医疗卫生</view>
+  <view class="article lightgreen">截至2009年，秦安县完成了25个医疗卫生基础设施项目建设，完成总建筑面积22945平方米，完成总投资2603万元； 2009年至2010年启动和实施了包括县医院住院楼、中医院门诊楼、妇幼保健院及中山、千户卫生院灾后重建及扩大内需建设项目共8个，至2010年底，已完成总建筑面积28311平方米，完成总投资4033万元。至2010年低，县、乡680名卫生技术人员中，大专、本科1751人，占54%，与2005年相比增加了15个百分点；中、高级职称214人，占32%，与2005年相比增加了10个百分点。</view>
+  <view class="article lightgreen">2015年，秦安县完成了妇幼保健院、卫生监督所实验综合楼和19个乡镇卫生院项目建设。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img0.baidu.com/it/u=2941991530,560184478&fm=253&fmt=auto&app=138&f=JPEG?w=566&h=296" mode="widthFix"></image>
+  </view>
+  <view class="h2">（五）文化事业</view>
+  <view class="article lightblue">
+    2006年至2010年期间，秦安县新增农村文化场所建筑面积1.8万元平方米。争取到乡镇综合文化站建设项目资金360万元，完成了郭嘉、莲花等15个乡镇综合文化站建设工程，总建筑面积4300平方米。实施了“农家书屋”工程建设，投资837.5万元共建成农家书屋335个，占秦安县行政村的78%，总建筑面积6197.5平方米。在五营、陇城两乡镇实施了总投资30万元的文化信息资源共享工程，在秦安县428个行政村实施了总投资183万元的文化信息资源共享工程村级服务点建设工程。 创排了秦安小曲剧《杀鸡宰鹅》、《村官浪漫曲》、《情系学子》、《莺莺拷红》、《生日》5个现代小戏。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=45411891,3446333632&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333" mode="widthFix"></image>
+  </view>
+  <view class="article lightwhite">2015年，秦安县大地湾博物馆、秦安解放纪念馆和报纸牌匾博物馆建成并免费对外开放，凤山景区成功创建为国家4A级旅游景区。建成村级文化广场249个、乡村舞台272个，乡镇综合文化站、农家书屋和广播电视实现全覆盖。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=3146388478,3146394385&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" mode="widthFix"></image>
+  </view>
+  <view class="h2">（六）乡村振兴</view>
+  <view class="article">2021年8月27日，被中央农村工作领导小组办公室和国家乡村振兴局确定为国家乡村振兴重点帮扶县</view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=2885800837,3700957582&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=333" mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter fooster">
+    <image src="https://img0.baidu.com/it/u=795285559,2677613069&fm=253&fmt=auto&app=120&f=GIF?w=400&h=226" mode="widthFix"></image>
+  </view>
+  <view class="h2">（七）交通运输</view>
+  <view class="h3">公路</view>
+  <view class="article lightgray">秦安是天水的北大门，天平高速贯穿境内 [61] ，天巉公路、靖天公路纵贯南北，泾甘公路横穿东西，叶莲公路、蔡莲公路建成通车，已成为沟通陇东、陇南、兰州及西安的交通枢纽。2005年以来，秦安县建成和正在实施公路项目达62个，总工作量2.54亿元。新建二级公路1条40.39千米，新改建三级公路3条21.52千米，四级公路3条58.8千米，农一级、农二级公路64条316千米，新建及加固桥梁568.7米/10座。截至2011年，秦安县由1条国道主干线和3条省道组成的纵贯南北，横联东西，衔接毗邻周边县区的主干道公路网已初具规模，由205.927千米县乡公路和1341.03千米乡村道路构成的干支相连。至2011年，秦安县通车总里程为1784.42千米，其中国道52千米，省道187.12千米，县乡公路204.27千米，乡村道路1341.03千米。秦安县乡镇通班车率100%，行政村通班车率70%，有客运班线30条，货运专线21条。秦安县由1条国道主干线和3条省道组成的纵贯南北，横联东西。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img2.baidu.com/it/u=580039333,2569958336&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1659891600&t=54ce47a2895f9a230ed39d496fb44319" mode="widthFix"></image>
+  </view>
+  <view class="h3">铁路</view>
+  <view class="article lightwhite">秦安站是宝兰客运专线的普通中间站，宝兰客运专线秦安站位于310国道（天巉公路）以东、鸭儿沟以南葫芦河以西区域。结合车站站房出入口设置站前广场、公交车、出租车及社会停车场。车站总建筑面积10000多平方米，按2站台4道设计，站房建筑面积近3500平方米，最高聚集人数可达1000人。</view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=672447121,2205538708&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=347" mode="widthFix"></image>
+  </view>
+  <view class="textAlignCrnter">
+    <image src="https://img1.baidu.com/it/u=3453694346,3880078973&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=408" mode="widthFix"></image>
+  </view>
+</view>
+
+<!-- 秦安的风景名胜 -->
+<view wx:elif="{{string==7}}">
+  <view class="h1"><text>秦安的风景名胜</text></view>
+  <!-- 风景名胜展示 -->
+  <myscenery></myscenery>>
+</view>
+
+
+<!-- 底部样式 -->
+<view class="textAlignCrnter fontgray fooster">-----------你已经看到了我的底线--------</view>
+<!-- 返回首页 -->
+<view style="color: blue;margin-bottom: 50rpx;" class="textAlignCrnter">
+  <navigator open-type="switchTab" url="/pages/home/home"> 返回首页 </navigator>
+</view>

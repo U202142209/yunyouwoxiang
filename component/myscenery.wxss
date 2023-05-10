@@ -1,0 +1,34 @@
+/* component/myscenery.wxss */
+
+/* 首页风景名胜 */
+.scenerylist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24rpx;
+}
+
+.scenery-item {
+  width: 310rpx;
+  margin-top: 30px;
+  margin: 17rpx;
+  border: 1px solid #a6e9b7;
+  text-align: center;
+}
+
+.scenery-item image {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.tuijian {
+  display: flex;
+  padding-left: 9rpx;
+  padding-top: 5px;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.tuijian image {
+  width: 15px;
+}

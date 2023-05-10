@@ -1,0 +1,70 @@
+/* pages/list/list.wxss */
+.list {
+  display: flex;
+  padding: 10px;
+  border: 3px solid #efefef;
+  margin: 10rpx;
+}
+
+.list_image {
+  width: 200rpx;
+}
+
+.list_title {
+  padding-left: 40rpx;
+  line-height: 200rpx;
+  font-size: 40rpx;
+}
+
+/* 秦安简介标题 */
+.qinantitle {
+  text-align: center;
+  font-size: 36rpx;
+  border: 1px solid black;
+  padding: 20px 10px;
+}
+
+/* 重写article样式 */
+.article {
+  padding: 0 29rpx;
+  background-color: rgb(250, 249, 241);
+  box-sizing: border-box;
+  border-left: 30rpx solid rgb(169, 216, 238);
+  border-right: 30rpx solid rgb(169, 216, 238);
+  text-align: left;
+}
+
+/* 复制了结尾的样式，可能会有不需要的代码，这里没有进行整理 */
+/* pages/company/company.wxss */
+.company_name {
+  margin: 10rpx;
+  padding: 10rpx;
+  background-color: rgb(222, 188, 114);
+  border-radius: 50rpx;
+}
+.company_h2 {
+  font-size: 50rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.h2_0 {
+  margin-top: 10rpx;
+  width: 50rpx;
+  height: 50rpx;
+  background-color: blue;
+  border-bottom: 15rpx solid yellow;
+}
+.article {
+  padding: 0 29rpx;
+  background-color: rgb(250, 249, 241);
+  box-sizing: border-box;
+  border-left: 30rpx solid rgb(169, 216, 238);
+  border-right: 30rpx solid rgb(169, 216, 238);
+  text-align: left;
+}
+.endtext {
+  margin: 30rpx;
+  color: rgb(32,128,175);
+  font-size: 35rpx;
+  line-height: 55rpx;
+}

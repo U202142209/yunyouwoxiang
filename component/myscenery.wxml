@@ -1,0 +1,12 @@
+<!--component/myscenery.wxml-->
+<!-- 风景名胜展示 -->
+<view class="scenerylist box">
+  <navigator wx:for="{{scenery}}" wx:key="id" class="scenery-item box" open-type="navigate" url="/child1/scebery/scebery?obj={{item.id}}&name={{item.name}}&url={{item.photo}}">
+    <view style="text-align: left;"><image style="width: 150rpx;" mode="widthFix" src="/images/home/decorate/img_4.png"></image></view>
+    <image src="{{item.photo}}" mode="widthFix"></image>
+    <text>景区名称； {{item.name}}</text>
+    <view class="tuijian box"><text>推荐等级</text>
+    <image wx:for="{{wu}}" mode="widthFix" src="/images/home/decorate/img_5.png"></image>
+    </view>
+  </navigator>
+</view>

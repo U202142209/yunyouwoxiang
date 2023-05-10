@@ -1,0 +1,53 @@
+/* pages/home/home.wxss */
+.home_swiper {
+  height: 475rpx;
+}
+.swiperimg {
+  width: 750rpx;
+}
+
+/*导航栏*/
+.nav {
+  border: 1px solid #efefef;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav image {
+  width: 100rpx;
+}
+
+/* 装饰图片 */
+.decorate {
+  margin: 15px 0;
+  display: flex;
+  position: relative;
+  border-bottom: 25px solid rgb(232, 250, 238);
+  border-top: 15px solid rgb(232, 246, 238);
+}
+
+.decorateimg {
+  width: 180rpx;
+}
+
+.decorateimg1 {
+  width: 1000rpx;
+}
+
+.decorate ::after {
+  position: absolute;
+  content: "让我们一起云游秦安";
+  top: 18px;
+  font-size: 18px;
+  left: 280rpx;
+  font-style: oblique;
+}

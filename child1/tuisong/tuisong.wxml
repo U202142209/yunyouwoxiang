@@ -1,0 +1,2 @@
+<!--pages/tuisong/tuisong.wxml-->
+<web-view src="{{url}}"></web-view>

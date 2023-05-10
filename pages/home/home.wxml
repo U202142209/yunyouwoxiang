@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<!-- 首页轮播图图片 -->
+<swiper class="home_swiper" indicator-dots interval="2000" autoplay circular>
+  <swiper-item wx:for="{{home_swiper}}" wx:key="index">
+    <image class="swiperimg" mode="widthFix" src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+
+<!-- 导航栏 -->
+<view class="nav">
+  <navigator class="nav-item" wx:for="{{navigations}}" wx:key="id" open-type="navigate" url="/child1/list/list?obj={{item.id}}">
+    <image mode="widthFix" src="{{item.photo}}"></image>
+    <text>{{item.text}}</text>
+  </navigator>
+</view>
+
+<!-- 小寨生产合作社 -->
+<navigator open-type="navigate" url="/child1/list/list?obj=5" class="textAlignCrnter">
+  <image style="width: 740rpx;" src="/images/home/xiaozhai.png" mode="widthFix"></image>
+</navigator>
+
+<view class="textAlignCrnter">
+  <image style="width: 730rpx;" mode="widthFix" src="/images/home/decorate/travel.png"></image>
+</view>
+
+<!-- 风景区 -->
+<myscenery></myscenery>>

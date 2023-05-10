@@ -1,0 +1,63 @@
+<view>
+  <image style="width: 100%;" src="https://mmbiz.qpic.cn/mmbiz_png/PheWqibTAgXEx0icch8mIf6vFGBsCEcnIEJ53YUSyTZRCuHAf6B8vTibicaKZjeI1dDktxPQm7bEvbmXdib63kYV10Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+</view>
+<view class="textAlignCrnter">
+  <view class="fontblue" style="font-size: 30rpx;">-ENTERPRISE PUBLICITY ALBUM-</view>
+  <view class="fontblue" style="font-size: 65rpx;">企业宣传册</view>
+  <!-- 企业链接 -->
+  <navigator open-type="navigate" url="/child1/list/list?obj=5">
+    <image style="width: 740rpx;" src="/images/home/xiaozhai.png" mode="widthFix"></image>
+    <view class="tuisong-title">-秦安县小寨村种植农民专业合作社-</view>
+  </navigator>
+  <navigator wx:for="{{tuisong}}" wx:key="index" url="/child1/tuisong/tuisong?url={{item.url}}" class="tuisong-list">
+    <image lazy-load mode="widthFix" src="{{item.img}}"></image>
+    <view class="tuisong-title">{{item.name}}</view>
+  </navigator>
+
+
+  <!-- <view class="company_name">-甘肃盛源菊香农业发展有限公司-</view>
+  <view>企业宣传·企业优势·产品展示</view>
+  <image src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXEx0icch8mIf6vFGBsCEcnIEadUHMg9PFedN6RSQq9tkdl6WXWLvCntHQnCwRLvAQDem7JQkt7mOaw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+
+  <view class="company_h2">
+    <view class="h2_0"></view>
+    企业简介
+    <view class="h2_0"></view>
+  </view>
+  <view class="article">
+    甘肃盛源菊香农业发展有限公司成立于2007年8月，位于甘肃省秦安县何川工业园区，法人代表薛菊香，注册资金8000万元。现有食品生产线3条，生产许可证3个，公司共注册商标10枚。2020年公司全年销售额 2.04亿元，其中花椒销售1.65亿元，占销售总额的80%，产成品销售3900万元。公司占地2万平方米，总建筑面积17771.67平方米。 <text class="fontweight"> 盛源公司发展至今已有十四年历史，是集花椒、中药材种植、收购、加工、销售为一体的综合性企业。 </text> 拥有一支100多人的凝聚力强的优秀团队。公司现已成为专业化、规模化、系列化生产花椒系列产品的现代化企业。
+  </view>
+  <image src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXEx0icch8mIf6vFGBsCEcnIEFKJW24z9CPZWhzv72ekxic2PxvFOW16xWBtEd7ibdqU3JnTE2P6Z8B4Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+  <view class="company_h2">
+    <view class="h2_0"></view>
+    企业优势·产品展示
+    <view class="h2_0"></view>
+  </view>
+  <image src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXEx0icch8mIf6vFGBsCEcnIEw3WFnnguR3GnLdLyK0icmWZ8bKCEa6XxyQrjJc3z67oMbCM2AcTekjA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+  <view class="article"><text class="fontweight"> 甘肃盛源菊香农业发展有限公司，依托花椒产地资源独特优势，凭靠自己强大的购销及研发团队、成熟的销售市场、严格高效的管理措施，在花椒经营上创出一条别具一格的新思路</text>
+    ，不但突出花椒的品牌优势，而且实现了花椒系列产品的升级及延伸。公司业务辐射到全县及周边地区农户，形成了较为稳定的花椒购销网络。</view>
+  <view class="article">目前已与全县5个花椒专业市场、60多个收购网点建立了合作关系，有花椒经纪人220多人，公司充分发挥“甘肃省农业产业化重点龙头企业”的示范带头作用，通过与当地周边椒农、药农签订种植收购协议，由公司提供农药、化肥、种子、技术服务等生产资料，统一收购花椒等农副产品，通过农户入股、劳务入股、当地就业等多种形式，与4500多户椒农建立了合作关系。公司打造“公司+合作社+基地+农户”产业经营模式上所做的贡献，得到了政府部门的充分肯定和认可。</view>
+  <image src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXEx0icch8mIf6vFGBsCEcnIElllALSbDTib6GrbfM34ArZnN6FhCrraLQOLkZJf7MDbRVEnNicwyic4DQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+  <view class="article"><text class="fontweight"> 盛源公司作为甘肃省花椒地方标准起草单位，在公司发展过程中致力于打造“秦安花椒”品牌意识，有“兴馨”、“陇水盛源”两大品牌并被评为甘肃省名牌产品；目前公司在花椒经营方面具备以下优势：</text></view>
+  <view class="article">1、建立了甘肃省先进的检验检测基地，通过对全国各地花椒样品的提取及化验，对花椒的色度、麻度、精油含量等技术指标做到精细化研究，建立了标本及数据库。同时注重质量管理，在原有方圆GB/T19001-(2016)认证的基础上，再次深入到HACCP认证，对花椒及延伸产品做到了精细化管理。</view>
+  <view class="article">2、公司能够严守信誉，公平、公正执行合同条款，能够开具销售等额专、普发票，属秦安县纳税合规企业，并和秦安县国税局共同建立秦安县税收法制教育基地。</view>
+  <image src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXEx0icch8mIf6vFGBsCEcnIEf7Z2SSqAwencCO66z5M572R439MYRa4vuuMz7uUuxtuq8Qf2Cp0akA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+  <view class="article">3、新建花椒精选生产线一条，引进国内先进精选设备，通过对花椒的色选、形选、X射线检测分选等，全方位剔除花椒中的恶性杂质，如土块、玻璃、陶瓷、石子、金属、骨头、贝壳、沙粒等；能够满足不同客户对花椒不同等级的需要。</view>
+  <view class="article">4、公司拥有恒温冷鲜库房1座，建筑面积3200多平米，总储存能力1.8万吨，解决了花椒的储存问题。</view>
+  <view class="article">5、公司现有各类配送车辆13台，并有道路运输许可证，可随时将花椒等货物及时运输到客户指定地点。</view>
+  <view class="article">6、公司在秦安县王窑镇吕山村建立花椒运营市场，进一步稳固上游花椒收购资源，并通过市场运营开辟了招商渠道，扩大了销售网络。</view>
+  <image src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXEx0icch8mIf6vFGBsCEcnIESxDThYp6QIYOTw4ibNvpnAtiatoMYNS80dyBZnWsN6puuRIj1mbmwoibA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+
+  <view class="endtext">
+    <view>如需<text class="fontweight">进店了解购买更多秦安的商品</text></view>
+    <view class="fontweight">（火锅底料、花椒芽菜酱等农副产品）</view>
+    <view>您可联系公众号’<text class="fontweight">鹿鼎沁桉</text>‘了解详情</view>
+
+
+    <view style="margin-top: 50rpx;">若有意向进行<text class="fontweight">商业合作</text> </view>
+    <view>欢迎扫码添加微信进行咨询👇👇👇</view>
+    <image style="width:400rpx; margin:20rpx" src="https://mmbiz.qpic.cn/mmbiz_jpg/PheWqibTAgXFtSoWMjNJRMpOsuIE32nzPOdt9zshHaSF6uLoj4NT7n7NHawHTjtAvOn6a03UY4lFn5JucUP0frg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1" mode="widthFix"></image>
+    <view class="fontweight">小鹿们恭候您的光临！</view>
+    <view style="margin:60rpx;">-END-</view>
+  </view> -->
+</view>
